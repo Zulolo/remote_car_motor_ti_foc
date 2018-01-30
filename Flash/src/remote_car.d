@@ -63,6 +63,7 @@ src/remote_car.obj: D:/ti/motorware/motorware_1_01_00_18/sw/modules/cpu_time/src
 src/remote_car.obj: D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/math.h
 src/remote_car.obj: D:/ti/motorware/motorware_1_01_00_18/sw/modules/hallbldc/src/32b/hallbldc.h
 src/remote_car.obj: D:/ti/motorware/motorware_1_01_00_18/sw/modules/hal/boards/boostxldrv8305_revA/f28x/f2802x/src/hal.h
+src/remote_car.obj: G:/code/c/ccs/remote_car/driver/i2c.h
 
 ../src/remote_car.c: 
 D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/math.h: 
@@ -127,3 +128,4 @@ D:/ti/motorware/motorware_1_01_00_18/sw/modules/cpu_time/src/32b/cpu_time.h:
 D:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.6.LTS/include/math.h: 
 D:/ti/motorware/motorware_1_01_00_18/sw/modules/hallbldc/src/32b/hallbldc.h: 
 D:/ti/motorware/motorware_1_01_00_18/sw/modules/hal/boards/boostxldrv8305_revA/f28x/f2802x/src/hal.h: 
+G:/code/c/ccs/remote_car/driver/i2c.h: 

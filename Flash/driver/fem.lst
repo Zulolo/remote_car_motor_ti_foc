@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    1
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                    PC v16.9.6.LTS *
-       3              ;* Date/Time created: Sun Jan 28 18:08:03 2018                 *
+       3              ;* Date/Time created: Tue Jan 30 22:35:46 2018                 *
        4              ;***************************************************************
        5                      .compiler_opts --abi=coffabi --float_support=softlib --hll_source=on --mem_model:code=flat --mem_mode
        6                      .asg    XAR2, FP
@@ -58,10 +58,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
       53                      .dwattr $C$DW$5, DW_AT_type(*$C$DW$T$36)
       54                      .dwattr $C$DW$5, DW_AT_location[DW_OP_breg20 -16]
       55              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    2
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    2
 
       56              $C$DW$6 .dwtag  DW_TAG_formal_parameter
       57                      .dwattr $C$DW$6, DW_AT_name("maxFreqError_Hz")
@@ -118,10 +118,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      108 00000000 B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
      109                      .dwcfi  save_reg_to_mem, 7, 2
      110                      .dwcfi  cfa_offset, -4
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    3
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    3
 
      111 00000001 A2BD          MOVL      *SP++,XAR3            ; [CPU_] 
      112                      .dwcfi  save_reg_to_mem, 11, 4
@@ -178,10 +178,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      160 0000001a D00C          MOVB      XAR0,#12              ; [CPU_] |273| 
      161 0000001b 0200          MOVB      ACC,#0                ; [CPU_] |273| 
      162 0000001c 1E91          MOVL      *+XAR1[AR0],ACC       ; [CPU_] |273| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    4
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    4
 
      163                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/modules/fem/src/32b/fem.h",line 286,column 3,is
      164 0000001d A242          MOVL      *-SP[2],XAR3          ; [CPU_] |286| 
@@ -238,10 +238,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      212                      .dwattr $C$DW$1, DW_AT_TI_end_file("D:/ti/motorware/motorware_1_01_00_18/sw/modules/fem/src/32b/fem.c
      213                      .dwattr $C$DW$1, DW_AT_TI_end_line(0x3a)
      214                      .dwattr $C$DW$1, DW_AT_TI_end_column(0x01)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    5
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    5
 
      215                      .dwendentry
      216                      .dwendtag $C$DW$1
@@ -298,10 +298,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      267                      .dwcfi  save_reg_to_mem, 26, 0
      268 00000032 1EA6          MOVL      XAR6,ACC              ; [CPU_] |22| 
      269                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/modules/fem/src/32b/fem.c",line 26,column 5,is_
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    6
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    6
 
      270 00000033 0212          MOVB      ACC,#18               ; [CPU_] |26| 
      271 00000034 0FA6          CMPL      ACC,XAR6              ; [CPU_] |26| 
@@ -358,10 +358,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      322                      .dwattr $C$DW$26, DW_AT_accessibility(DW_ACCESS_public)
      323              
      324              $C$DW$27        .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    7
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    7
 
      325                      .dwattr $C$DW$27, DW_AT_type(*$C$DW$T$19)
      326                      .dwattr $C$DW$27, DW_AT_name("deltaCnt")
@@ -418,10 +418,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      377              $C$DW$T$24      .dwtag  DW_TAG_typedef
      378                      .dwattr $C$DW$T$24, DW_AT_name("FEM_Handle")
      379                      .dwattr $C$DW$T$24, DW_AT_type(*$C$DW$T$23)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    8
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    8
 
      380                      .dwattr $C$DW$T$24, DW_AT_language(DW_LANG_C)
      381              
@@ -478,10 +478,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      432                      .dwattr $C$DW$T$11, DW_AT_name("unsigned int")
      433                      .dwattr $C$DW$T$11, DW_AT_byte_size(0x01)
      434              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE    9
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE    9
 
      435              $C$DW$T$12      .dwtag  DW_TAG_base_type
      436                      .dwattr $C$DW$T$12, DW_AT_encoding(DW_ATE_signed)
@@ -538,10 +538,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      487              $C$DW$36        .dwtag  DW_TAG_TI_far_type
      488                      .dwattr $C$DW$36, DW_AT_type(*$C$DW$T$36)
      489              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE   10
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE   10
 
      490              $C$DW$T$37      .dwtag  DW_TAG_const_type
      491                      .dwattr $C$DW$T$37, DW_AT_type(*$C$DW$36)
@@ -598,10 +598,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      542              $C$DW$40        .dwtag  DW_TAG_TI_assign_register
      543                      .dwattr $C$DW$40, DW_AT_name("PH")
      544                      .dwattr $C$DW$40, DW_AT_location[DW_OP_reg3]
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE   11
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE   11
 
      545              
      546              $C$DW$41        .dwtag  DW_TAG_TI_assign_register
@@ -658,10 +658,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      597              
      598              $C$DW$54        .dwtag  DW_TAG_TI_assign_register
      599                      .dwattr $C$DW$54, DW_AT_name("AMODE")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE   12
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE   12
 
      600                      .dwattr $C$DW$54, DW_AT_location[DW_OP_regx 0x22]
      601              
@@ -718,10 +718,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE  
      652                      .dwattr $C$DW$67, DW_AT_location[DW_OP_reg10]
      653              
      654              $C$DW$68        .dwtag  DW_TAG_TI_assign_register
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:03 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:46 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{38B76BC7-DF9E-4DB6-BEBD-7AED90F21520} PAGE   13
+C:\Users\Zulolo\AppData\Local\Temp\{78046D8F-EF0B-4900-9BBF-4B9E4AE0266B} PAGE   13
 
      655                      .dwattr $C$DW$68, DW_AT_name("XAR3")
      656                      .dwattr $C$DW$68, DW_AT_location[DW_OP_reg11]

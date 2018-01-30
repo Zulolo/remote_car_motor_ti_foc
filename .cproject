@@ -39,6 +39,7 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_LEVEL.1908265186" name="Optimization level (--opt_level, -O)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_LEVEL.2" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.INCLUDE_PATH.833868146" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.INCLUDE_PATH" useByScannerDiscovery="false" valueType="includePath">
 									<listOptionValue builtIn="false" value="D:\ti\ccsv7\tools\compiler\ti-cgt-c2000_16.9.6.LTS\include"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/driver}"/>
 									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/src}"/>
 									<listOptionValue builtIn="false" value="D:\ti\motorware\motorware_1_01_00_18"/>
 									<listOptionValue builtIn="false" value="D:\ti\motorware\motorware_1_01_00_18\sw\modules\hal\boards\boostxldrv8305_revA\f28x\f2802x\src"/>

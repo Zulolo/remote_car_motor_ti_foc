@@ -29,6 +29,7 @@ ORDERED_OBJS += \
 "./driver/flash.obj" \
 "./driver/gpio.obj" \
 "./driver/hal.obj" \
+"./driver/i2c.obj" \
 "./driver/ipark.obj" \
 "./driver/memCopy.obj" \
 "./driver/offset.obj" \
@@ -192,9 +193,9 @@ remote_car.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "CodeStartBranch.lst" "driver/adc.lst" "driver/clarke.lst" "driver/clk.lst" "driver/cpu.lst" "driver/cpu_usage.lst" "driver/ctrl.lst" "driver/drv8305.lst" "driver/fem.lst" "driver/filter_fo.lst" "driver/flash.lst" "driver/gpio.lst" "driver/hal.lst" "driver/ipark.lst" "driver/memCopy.lst" "driver/offset.lst" "driver/osc.lst" "driver/park.lst" "driver/pid.lst" "driver/pie.lst" "driver/pll.lst" "driver/pwm.lst" "driver/pwr.lst" "driver/spi.lst" "driver/svgen.lst" "driver/timer.lst" "driver/traj.lst" "driver/usDelay.lst" "driver/wdog.lst" "src/remote_car.lst" "src/user.lst" 
-	-$(RM) "CodeStartBranch.obj" "driver\adc.obj" "driver\clarke.obj" "driver\clk.obj" "driver\cpu.obj" "driver\cpu_usage.obj" "driver\ctrl.obj" "driver\drv8305.obj" "driver\fem.obj" "driver\filter_fo.obj" "driver\flash.obj" "driver\gpio.obj" "driver\hal.obj" "driver\ipark.obj" "driver\memCopy.obj" "driver\offset.obj" "driver\osc.obj" "driver\park.obj" "driver\pid.obj" "driver\pie.obj" "driver\pll.obj" "driver\pwm.obj" "driver\pwr.obj" "driver\spi.obj" "driver\svgen.obj" "driver\timer.obj" "driver\traj.obj" "driver\usDelay.obj" "driver\wdog.obj" "src\remote_car.obj" "src\user.obj" 
-	-$(RM) "driver\adc.d" "driver\clarke.d" "driver\clk.d" "driver\cpu.d" "driver\cpu_usage.d" "driver\ctrl.d" "driver\drv8305.d" "driver\fem.d" "driver\filter_fo.d" "driver\flash.d" "driver\gpio.d" "driver\hal.d" "driver\ipark.d" "driver\memCopy.d" "driver\offset.d" "driver\osc.d" "driver\park.d" "driver\pid.d" "driver\pie.d" "driver\pll.d" "driver\pwm.d" "driver\pwr.d" "driver\spi.d" "driver\svgen.d" "driver\timer.d" "driver\traj.d" "driver\wdog.d" "src\remote_car.d" "src\user.d" 
+	-$(RM) "CodeStartBranch.lst" "driver/adc.lst" "driver/clarke.lst" "driver/clk.lst" "driver/cpu.lst" "driver/cpu_usage.lst" "driver/ctrl.lst" "driver/drv8305.lst" "driver/fem.lst" "driver/filter_fo.lst" "driver/flash.lst" "driver/gpio.lst" "driver/hal.lst" "driver/i2c.lst" "driver/ipark.lst" "driver/memCopy.lst" "driver/offset.lst" "driver/osc.lst" "driver/park.lst" "driver/pid.lst" "driver/pie.lst" "driver/pll.lst" "driver/pwm.lst" "driver/pwr.lst" "driver/spi.lst" "driver/svgen.lst" "driver/timer.lst" "driver/traj.lst" "driver/usDelay.lst" "driver/wdog.lst" "src/remote_car.lst" "src/user.lst" 
+	-$(RM) "CodeStartBranch.obj" "driver\adc.obj" "driver\clarke.obj" "driver\clk.obj" "driver\cpu.obj" "driver\cpu_usage.obj" "driver\ctrl.obj" "driver\drv8305.obj" "driver\fem.obj" "driver\filter_fo.obj" "driver\flash.obj" "driver\gpio.obj" "driver\hal.obj" "driver\i2c.obj" "driver\ipark.obj" "driver\memCopy.obj" "driver\offset.obj" "driver\osc.obj" "driver\park.obj" "driver\pid.obj" "driver\pie.obj" "driver\pll.obj" "driver\pwm.obj" "driver\pwr.obj" "driver\spi.obj" "driver\svgen.obj" "driver\timer.obj" "driver\traj.obj" "driver\usDelay.obj" "driver\wdog.obj" "src\remote_car.obj" "src\user.obj" 
+	-$(RM) "driver\adc.d" "driver\clarke.d" "driver\clk.d" "driver\cpu.d" "driver\cpu_usage.d" "driver\ctrl.d" "driver\drv8305.d" "driver\fem.d" "driver\filter_fo.d" "driver\flash.d" "driver\gpio.d" "driver\hal.d" "driver\i2c.d" "driver\ipark.d" "driver\memCopy.d" "driver\offset.d" "driver\osc.d" "driver\park.d" "driver\pid.d" "driver\pie.d" "driver\pll.d" "driver\pwm.d" "driver\pwr.d" "driver\spi.d" "driver\svgen.d" "driver\timer.d" "driver\traj.d" "driver\wdog.d" "src\remote_car.d" "src\user.d" 
 	-$(RM) "CodeStartBranch.d" "driver\usDelay.d" 
 	-@echo 'Finished clean'
 	-@echo ' '

@@ -21,6 +21,7 @@ D:/ti/motorware/motorware_1_01_00_18/sw/modules/filter/src/32b/filter_fo.c \
 D:/ti/motorware/motorware_1_01_00_18/sw/drivers/flash/src/32b/f28x/f2802x/flash.c \
 D:/ti/motorware/motorware_1_01_00_18/sw/drivers/gpio/src/32b/f28x/f2802x/gpio.c \
 D:/ti/motorware/motorware_1_01_00_18/sw/modules/hal/boards/boostxldrv8305_revA/f28x/f2802x/src/hal.c \
+../driver/i2c.c \
 D:/ti/motorware/motorware_1_01_00_18/sw/modules/ipark/src/32b/ipark.c \
 D:/ti/motorware/motorware_1_01_00_18/sw/modules/memCopy/src/memCopy.c \
 D:/ti/motorware/motorware_1_01_00_18/sw/modules/offset/src/32b/offset.c \
@@ -50,6 +51,7 @@ C_DEPS += \
 ./driver/flash.d \
 ./driver/gpio.d \
 ./driver/hal.d \
+./driver/i2c.d \
 ./driver/ipark.d \
 ./driver/memCopy.d \
 ./driver/offset.d \
@@ -79,6 +81,7 @@ OBJS += \
 ./driver/flash.obj \
 ./driver/gpio.obj \
 ./driver/hal.obj \
+./driver/i2c.obj \
 ./driver/ipark.obj \
 ./driver/memCopy.obj \
 ./driver/offset.obj \
@@ -112,6 +115,7 @@ OBJS__QUOTED += \
 "driver\flash.obj" \
 "driver\gpio.obj" \
 "driver\hal.obj" \
+"driver\i2c.obj" \
 "driver\ipark.obj" \
 "driver\memCopy.obj" \
 "driver\offset.obj" \
@@ -142,6 +146,7 @@ C_DEPS__QUOTED += \
 "driver\flash.d" \
 "driver\gpio.d" \
 "driver\hal.d" \
+"driver\i2c.d" \
 "driver\ipark.d" \
 "driver\memCopy.d" \
 "driver\offset.d" \
@@ -174,6 +179,7 @@ C_SRCS__QUOTED += \
 "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/flash/src/32b/f28x/f2802x/flash.c" \
 "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/gpio/src/32b/f28x/f2802x/gpio.c" \
 "D:/ti/motorware/motorware_1_01_00_18/sw/modules/hal/boards/boostxldrv8305_revA/f28x/f2802x/src/hal.c" \
+"../driver/i2c.c" \
 "D:/ti/motorware/motorware_1_01_00_18/sw/modules/ipark/src/32b/ipark.c" \
 "D:/ti/motorware/motorware_1_01_00_18/sw/modules/memCopy/src/memCopy.c" \
 "D:/ti/motorware/motorware_1_01_00_18/sw/modules/offset/src/32b/offset.c" \

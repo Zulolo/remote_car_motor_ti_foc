@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    1
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                    PC v16.9.6.LTS *
-       3              ;* Date/Time created: Sun Jan 28 18:08:01 2018                 *
+       3              ;* Date/Time created: Tue Jan 30 22:35:44 2018                 *
        4              ;***************************************************************
        5                      .compiler_opts --abi=coffabi --float_support=softlib --hll_source=on --mem_model:code=flat --mem_mode
        6                      .asg    XAR2, FP
@@ -58,10 +58,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
       52                      .dwattr $C$DW$6, DW_AT_external
       53              $C$DW$7 .dwtag  DW_TAG_formal_parameter
       54                      .dwattr $C$DW$7, DW_AT_type(*$C$DW$T$20)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    2
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    2
 
       55              
       56                      .dwendtag $C$DW$6
@@ -118,10 +118,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      107                      .dwattr $C$DW$13, DW_AT_location[DW_OP_reg1]
      108              
      109              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    3
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    3
 
      110              ;***************************************************************
      111              ;* FNAME: _DRV8305_writeSpi             FR SIZE:   6           *
@@ -178,10 +178,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      162 00000007 7640!         LCR       #_SPI_resetRxFifo     ; [CPU_] |1139| 
          00000008 0000 
      163                      ; call occurs [#_SPI_resetRxFifo] ; [] |1139| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    4
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    4
 
      164                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
      165 00000009 8AC3          MOVL      XAR4,*+XAR3[0]        ; [CPU_] |1140| 
@@ -238,10 +238,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      213                      .dwattr $C$DW$20, DW_AT_name("DRV8305_writeData")
      214                      .dwattr $C$DW$20, DW_AT_low_pc(_DRV8305_writeData)
      215                      .dwattr $C$DW$20, DW_AT_high_pc(0x00)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    5
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    5
 
      216                      .dwattr $C$DW$20, DW_AT_TI_symbol_name("_DRV8305_writeData")
      217                      .dwattr $C$DW$20, DW_AT_external
@@ -298,10 +298,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      268              
      269                      .dwcfi  cfa_offset, -2
      270                      .dwcfi  save_reg_to_mem, 26, 0
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    6
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    6
 
      271 0000001c B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
      272                      .dwcfi  save_reg_to_mem, 7, 2
@@ -358,10 +358,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      319 0000003e 5603          MOV       ACC,*+XAR2[AR0] << #10 ; [CPU_] |1174| 
          0000003f 0A92 
      320 00000040 CAA6          OR        AL,AR6                ; [CPU_] |1174| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    7
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    7
 
      321 00000041 93A9          MOV       AH,AL                 ; [CPU_] |1174| 
      322 00000042 28A9          MOV       AL,#12288             ; [CPU_] |1174| 
@@ -418,10 +418,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      366 00000067 D03E          MOVB      XAR0,#62              ; [CPU_] |1193| 
      367 00000068 5603          MOV       ACC,*+XAR2[AR0] << #3 ; [CPU_] |1193| 
          00000069 0392 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    8
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    8
 
      368 0000006a 93A9          MOV       AH,AL                 ; [CPU_] |1193| 
      369 0000006b CBA6          OR        AH,AR6                ; [CPU_] |1193| 
@@ -478,10 +478,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      413 00000094 CA92          OR        AL,*+XAR2[AR0]        ; [CPU_] |1214| 
      414 00000095 D048          MOVB      XAR0,#72              ; [CPU_] |1214| 
      415 00000096 CA92          OR        AL,*+XAR2[AR0]        ; [CPU_] |1214| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE    9
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE    9
 
      416 00000097 88A9          MOVZ      AR6,AL                ; [CPU_] |1214| 
      417 00000098 D049          MOVB      XAR0,#73              ; [CPU_] |1214| 
@@ -538,10 +538,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      459 000000c4 D052          MOVB      XAR0,#82              ; [CPU_] |1226| 
      460 000000c5 CBA6          OR        AH,AR6                ; [CPU_] |1226| 
      461 000000c6 92A8          MOV       AL,AH                 ; [CPU_] |1226| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   10
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   10
 
      462 000000c7 CA92          OR        AL,*+XAR2[AR0]        ; [CPU_] |1226| 
      463 000000c8 80A9          MOVZ      AR7,AL                ; [CPU_] |1226| 
@@ -598,10 +598,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      506 000000ed D059          MOVB      XAR0,#89              ; [CPU_] |1237| 
      507 000000ee 2B92          MOV       *+XAR2[AR0],#0        ; [CPU_] |1237| 
      508 000000ef       $C$L2:    
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   11
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   11
 
      509                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
      510 000000ef D05F          MOVB      XAR0,#95              ; [CPU_] |1241| 
@@ -658,10 +658,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      559                      .dwattr $C$DW$35, DW_AT_high_pc(0x00)
      560                      .dwattr $C$DW$35, DW_AT_TI_symbol_name("_DRV8305_readSpi")
      561                      .dwattr $C$DW$35, DW_AT_external
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   12
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   12
 
      562                      .dwattr $C$DW$35, DW_AT_type(*$C$DW$T$52)
      563                      .dwattr $C$DW$35, DW_AT_TI_begin_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/
@@ -718,10 +718,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      614              $C$DW$41        .dwtag  DW_TAG_variable
      615                      .dwattr $C$DW$41, DW_AT_name("handle")
      616                      .dwattr $C$DW$41, DW_AT_TI_symbol_name("_handle")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   13
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   13
 
      617                      .dwattr $C$DW$41, DW_AT_type(*$C$DW$T$193)
      618                      .dwattr $C$DW$41, DW_AT_location[DW_OP_reg8]
@@ -778,10 +778,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      666 00000112 6F0B          B         $C$L5,UNC             ; [CPU_] |1113| 
      667                      ; branch occurs ; [] |1113| 
      668 00000113       $C$L4:    
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   14
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   14
 
      669                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
      670              $C$DW$45        .dwtag  DW_TAG_TI_branch
@@ -838,10 +838,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      712              $C$DW$46        .dwtag  DW_TAG_TI_branch
      713                      .dwattr $C$DW$46, DW_AT_low_pc(0x00)
      714                      .dwattr $C$DW$46, DW_AT_TI_return
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   15
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   15
 
      715              
      716 00000131 0006          LRETR     ; [CPU_] 
@@ -898,10 +898,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      767                      .dwattr $C$DW$50, DW_AT_TI_symbol_name("_handle")
      768                      .dwattr $C$DW$50, DW_AT_type(*$C$DW$T$193)
      769                      .dwattr $C$DW$50, DW_AT_location[DW_OP_reg8]
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   16
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   16
 
      770              
      771              ;* AR1   assigned to _Spi_8305_Vars
@@ -958,10 +958,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      821 00000146 D059          MOVB      XAR0,#89              ; [CPU_] |949| 
      822 00000147 2B91          MOV       *+XAR1[AR0],#0        ; [CPU_] |949| 
      823                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   17
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   17
 
      824              $C$DW$53        .dwtag  DW_TAG_TI_branch
      825                      .dwattr $C$DW$53, DW_AT_low_pc(0x00)
@@ -1018,10 +1018,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      874 0000016a 97F9          MOV       *+XAR1[7],AH          ; [CPU_] |962| 
      875                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
      876 0000016b 93A9          MOV       AH,AL                 ; [CPU_] |963| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   18
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   18
 
      877 0000016c FFD7          LSR       AH,8                  ; [CPU_] |963| 
      878 0000016d 9101          ANDB      AH,#0x01              ; [CPU_] |963| 
@@ -1078,10 +1078,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      926 0000018f 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |973| 
      927                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
      928 00000190 D00E          MOVB      XAR0,#14              ; [CPU_] |974| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   19
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   19
 
      929 00000191 93A9          MOV       AH,AL                 ; [CPU_] |974| 
      930 00000192 FFD3          LSR       AH,4                  ; [CPU_] |974| 
@@ -1138,10 +1138,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
      979                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
      980 000001b6 D016          MOVB      XAR0,#22              ; [CPU_] |985| 
      981 000001b7 CDA9          AND       AH,AL,#0x0001         ; [CPU_] |985| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   20
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   20
 
          000001b8 0001 
      982 000001b9 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |985| 
@@ -1198,10 +1198,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1033 000001e2 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |993| 
     1034                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1035 000001e3 93A9          MOV       AH,AL                 ; [CPU_] |994| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   21
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   21
 
     1036 000001e4 D01F          MOVB      XAR0,#31              ; [CPU_] |994| 
     1037 000001e5 FFD8          LSR       AH,9                  ; [CPU_] |994| 
@@ -1258,10 +1258,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1085 00000207 9101          ANDB      AH,#0x01              ; [CPU_] |1004| 
     1086 00000208 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1004| 
     1087                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   22
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   22
 
     1088 00000209 D026          MOVB      XAR0,#38              ; [CPU_] |1005| 
     1089 0000020a 93A9          MOV       AH,AL                 ; [CPU_] |1005| 
@@ -1318,10 +1318,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1137                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1138 0000022e D02D          MOVB      XAR0,#45              ; [CPU_] |1016| 
     1139 0000022f CDA9          AND       AH,AL,#0x00f0         ; [CPU_] |1016| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   23
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   23
 
          00000230 00F0 
     1140 00000231 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1016| 
@@ -1378,10 +1378,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1185 00000250 28A9          MOV       AL,#14336             ; [CPU_] |1030| 
          00000251 3800 
     1186              $C$DW$59        .dwtag  DW_TAG_TI_branch
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   24
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   24
 
     1187                      .dwattr $C$DW$59, DW_AT_low_pc(0x00)
     1188                      .dwattr $C$DW$59, DW_AT_name("_DRV8305_readSpi")
@@ -1438,10 +1438,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1231                      ; call occurs [#_DRV8305_readSpi] ; [] |1045| 
     1232                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1233 00000271 D03B          MOVB      XAR0,#59              ; [CPU_] |1046| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   25
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   25
 
     1234 00000272 CDA9          AND       AH,AL,#0x0001         ; [CPU_] |1046| 
          00000273 0001 
@@ -1498,10 +1498,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1284                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1285 0000029c FFC9          LSR       AL,10                 ; [CPU_] |1055| 
     1286 0000029d 9001          ANDB      AL,#0x01              ; [CPU_] |1055| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   26
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   26
 
     1287                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1288 0000029e 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1054| 
@@ -1558,10 +1558,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1333                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1334 000002c1 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1065| 
     1335                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   27
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   27
 
     1336 000002c2 D04B          MOVB      XAR0,#75              ; [CPU_] |1066| 
     1337 000002c3 9691          MOV       *+XAR1[AR0],AL        ; [CPU_] |1066| 
@@ -1618,10 +1618,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
          000002e7 0300 
     1384                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1385 000002e8 FFC9          LSR       AL,10                 ; [CPU_] |1078| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   28
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   28
 
     1386 000002e9 9001          ANDB      AL,#0x01              ; [CPU_] |1078| 
     1387                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
@@ -1678,10 +1678,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1434                      .dwcfi  cfa_offset, -2
     1435                      .dwcfi  restore_reg, 7
     1436              $C$DW$64        .dwtag  DW_TAG_TI_branch
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   29
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   29
 
     1437                      .dwattr $C$DW$64, DW_AT_low_pc(0x00)
     1438                      .dwattr $C$DW$64, DW_AT_TI_return
@@ -1738,10 +1738,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1489              $C$DW$68        .dwtag  DW_TAG_variable
     1490                      .dwattr $C$DW$68, DW_AT_name("handle")
     1491                      .dwattr $C$DW$68, DW_AT_TI_symbol_name("_handle")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   30
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   30
 
     1492                      .dwattr $C$DW$68, DW_AT_type(*$C$DW$T$193)
     1493                      .dwattr $C$DW$68, DW_AT_location[DW_OP_reg8]
@@ -1798,10 +1798,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1540                      .dwattr $C$DW$72, DW_AT_low_pc(0x00)
     1541                      .dwattr $C$DW$72, DW_AT_name("_DRV8305_writeSpi")
     1542                      .dwattr $C$DW$72, DW_AT_TI_call
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   31
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   31
 
     1543              
     1544 00000319 7640'         LCR       #_DRV8305_writeSpi    ; [CPU_] |680| 
@@ -1858,10 +1858,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1594              ;***************************************************************
     1595              ;* FNAME: _DRV8305_setVregUvLevel       FR SIZE:   4           *
     1596              ;*                                                             *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   32
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   32
 
     1597              ;* FUNCTION ENVIRONMENT                                        *
     1598              ;*                                                             *
@@ -1918,10 +1918,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1647                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1648 00000327 18A8          AND       AH,#0xfffc            ; [CPU_] |805| 
          00000328 FFFC 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   33
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   33
 
     1649                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1650 00000329 28A9          MOV       AL,#22528             ; [CPU_] |811| 
@@ -1978,10 +1978,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1699                      .dwattr $C$DW$84, DW_AT_TI_symbol_name("_handle")
     1700                      .dwattr $C$DW$84, DW_AT_type(*$C$DW$T$110)
     1701                      .dwattr $C$DW$84, DW_AT_location[DW_OP_reg12]
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   34
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   34
 
     1702              
     1703              $C$DW$85        .dwtag  DW_TAG_formal_parameter
@@ -2038,10 +2038,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1753 00000337 86A4          MOVL      XAR2,XAR4             ; [CPU_] |838| 
     1754                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     1755              $C$DW$89        .dwtag  DW_TAG_TI_branch
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   35
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   35
 
     1756                      .dwattr $C$DW$89, DW_AT_low_pc(0x00)
     1757                      .dwattr $C$DW$89, DW_AT_name("_DRV8305_readSpi")
@@ -2098,10 +2098,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1804                      .dwattr $C$DW$92, DW_AT_TI_symbol_name("_DRV8305_setVDSMode")
     1805                      .dwattr $C$DW$92, DW_AT_external
     1806                      .dwattr $C$DW$92, DW_AT_TI_begin_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   36
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   36
 
     1807                      .dwattr $C$DW$92, DW_AT_TI_begin_line(0x359)
     1808                      .dwattr $C$DW$92, DW_AT_TI_begin_column(0x06)
@@ -2158,10 +2158,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1859 00000346 B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
     1860                      .dwcfi  save_reg_to_mem, 7, 2
     1861                      .dwcfi  cfa_offset, -4
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   37
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   37
 
     1862 00000347 59A9          MOVZ      AR1,AL                ; [CPU_] |858| 
     1863                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
@@ -2218,10 +2218,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1909                      .dwendentry
     1910                      .dwendtag $C$DW$92
     1911              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   38
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   38
 
     1912 0000035a               .sect   ".text"
     1913                      .clink
@@ -2278,10 +2278,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     1964                      .dwattr $C$DW$105, DW_AT_location[DW_OP_reg6]
     1965              
     1966              ;* AH    assigned to _data
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   39
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   39
 
     1967              $C$DW$106       .dwtag  DW_TAG_variable
     1968                      .dwattr $C$DW$106, DW_AT_name("data")
@@ -2338,10 +2338,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2014                      .dwcfi  cfa_offset, -2
     2015                      .dwcfi  restore_reg, 7
     2016              $C$DW$109       .dwtag  DW_TAG_TI_branch
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   40
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   40
 
     2017                      .dwattr $C$DW$109, DW_AT_low_pc(0x00)
     2018                      .dwattr $C$DW$109, DW_AT_TI_return
@@ -2398,10 +2398,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2069              $C$DW$113       .dwtag  DW_TAG_variable
     2070                      .dwattr $C$DW$113, DW_AT_name("handle")
     2071                      .dwattr $C$DW$113, DW_AT_TI_symbol_name("_handle")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   41
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   41
 
     2072                      .dwattr $C$DW$113, DW_AT_type(*$C$DW$T$193)
     2073                      .dwattr $C$DW$113, DW_AT_location[DW_OP_reg8]
@@ -2458,10 +2458,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2120                      .dwattr $C$DW$117, DW_AT_low_pc(0x00)
     2121                      .dwattr $C$DW$117, DW_AT_name("_DRV8305_writeSpi")
     2122                      .dwattr $C$DW$117, DW_AT_TI_call
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   42
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   42
 
     2123              
     2124 0000037d 7640'         LCR       #_DRV8305_writeSpi    ; [CPU_] |580| 
@@ -2518,10 +2518,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2174              ;***************************************************************
     2175              ;* FNAME: _DRV8305_setVDSBlanking       FR SIZE:   4           *
     2176              ;*                                                             *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   43
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   43
 
     2177              ;* FUNCTION ENVIRONMENT                                        *
     2178              ;*                                                             *
@@ -2578,10 +2578,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2227                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     2228 0000038b 18A8          AND       AH,#0xfff3            ; [CPU_] |594| 
          0000038c FFF3 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   44
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   44
 
     2229                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     2230 0000038d 28A9          MOV       AL,#14336             ; [CPU_] |600| 
@@ -2638,10 +2638,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2279                      .dwattr $C$DW$129, DW_AT_TI_symbol_name("_handle")
     2280                      .dwattr $C$DW$129, DW_AT_type(*$C$DW$T$110)
     2281                      .dwattr $C$DW$129, DW_AT_location[DW_OP_reg12]
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   45
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   45
 
     2282              
     2283              $C$DW$130       .dwtag  DW_TAG_formal_parameter
@@ -2698,10 +2698,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2334              $C$DW$134       .dwtag  DW_TAG_subprogram
     2335                      .dwattr $C$DW$134, DW_AT_name("DRV8305_setSleepDelay")
     2336                      .dwattr $C$DW$134, DW_AT_low_pc(_DRV8305_setSleepDelay)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   46
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   46
 
     2337                      .dwattr $C$DW$134, DW_AT_high_pc(0x00)
     2338                      .dwattr $C$DW$134, DW_AT_TI_symbol_name("_DRV8305_setSleepDelay")
@@ -2758,10 +2758,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2389                      .dwattr $C$DW$139, DW_AT_location[DW_OP_reg1]
     2390              
     2391                      .dwcfi  cfa_offset, -2
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   47
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   47
 
     2392                      .dwcfi  save_reg_to_mem, 26, 0
     2393 00000398 B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
@@ -2818,10 +2818,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2439                      ; return occurs ; [] 
     2440                      .dwattr $C$DW$134, DW_AT_TI_end_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/s
     2441                      .dwattr $C$DW$134, DW_AT_TI_end_line(0x342)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   48
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   48
 
     2442                      .dwattr $C$DW$134, DW_AT_TI_end_column(0x01)
     2443                      .dwendentry
@@ -2878,10 +2878,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2494              $C$DW$147       .dwtag  DW_TAG_variable
     2495                      .dwattr $C$DW$147, DW_AT_name("mode")
     2496                      .dwattr $C$DW$147, DW_AT_TI_symbol_name("_mode")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   49
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   49
 
     2497                      .dwattr $C$DW$147, DW_AT_type(*$C$DW$T$136)
     2498                      .dwattr $C$DW$147, DW_AT_location[DW_OP_reg6]
@@ -2938,10 +2938,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2544 000003bd 86BE          MOVL      XAR2,*--SP            ; [CPU_] 
     2545                      .dwcfi  cfa_offset, -4
     2546                      .dwcfi  restore_reg, 9
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   50
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   50
 
     2547 000003be 8BBE          MOVL      XAR1,*--SP            ; [CPU_] 
     2548                      .dwcfi  cfa_offset, -2
@@ -2998,10 +2998,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2599              ;***************************************************************
     2600              
     2601              _DRV8305_setPeakSourTime:
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   51
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   51
 
     2602              ;* AR2   assigned to _handle
     2603              $C$DW$155       .dwtag  DW_TAG_variable
@@ -3058,10 +3058,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2650                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     2651 000003ce CBA1          OR        AH,AR1                ; [CPU_] |514| 
     2652                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   52
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   52
 
     2653              $C$DW$159       .dwtag  DW_TAG_TI_branch
     2654                      .dwattr $C$DW$159, DW_AT_low_pc(0x00)
@@ -3118,10 +3118,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2704                      .dwattr $C$DW$163, DW_AT_type(*$C$DW$T$28)
     2705                      .dwattr $C$DW$163, DW_AT_location[DW_OP_reg0]
     2706              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   53
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   53
 
     2707              
     2708              ;***************************************************************
@@ -3178,10 +3178,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2758 000003da 7640'         LCR       #_DRV8305_readSpi     ; [CPU_] |471| 
          000003db 0100 
     2759                      ; call occurs [#_DRV8305_readSpi] ; [] |471| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   54
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   54
 
     2760 000003dc 93A9          MOV       AH,AL                 ; [CPU_] |471| 
     2761                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
@@ -3238,10 +3238,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2809              
     2810                      .dwfde $C$DW$CIE, _DRV8305_setPeakSinkTime
     2811              $C$DW$171       .dwtag  DW_TAG_formal_parameter
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   55
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   55
 
     2812                      .dwattr $C$DW$171, DW_AT_name("handle")
     2813                      .dwattr $C$DW$171, DW_AT_TI_symbol_name("_handle")
@@ -3298,10 +3298,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2863 000003ec AABD          MOVL      *SP++,XAR2            ; [CPU_] 
     2864                      .dwcfi  save_reg_to_mem, 9, 4
     2865                      .dwcfi  cfa_offset, -6
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   56
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   56
 
     2866                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     2867 000003ed 86A4          MOVL      XAR2,XAR4             ; [CPU_] |547| 
@@ -3358,10 +3358,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2914              $C$DW$179       .dwtag  DW_TAG_subprogram
     2915                      .dwattr $C$DW$179, DW_AT_name("DRV8305_setPeakSinkCurLS")
     2916                      .dwattr $C$DW$179, DW_AT_low_pc(_DRV8305_setPeakSinkCurLS)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   57
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   57
 
     2917                      .dwattr $C$DW$179, DW_AT_high_pc(0x00)
     2918                      .dwattr $C$DW$179, DW_AT_TI_symbol_name("_DRV8305_setPeakSinkCurLS")
@@ -3418,10 +3418,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     2969                      .dwattr $C$DW$184, DW_AT_location[DW_OP_reg1]
     2970              
     2971                      .dwcfi  cfa_offset, -2
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   58
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   58
 
     2972                      .dwcfi  save_reg_to_mem, 26, 0
     2973 000003fc B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
@@ -3478,10 +3478,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3019                      ; return occurs ; [] 
     3020                      .dwattr $C$DW$179, DW_AT_TI_end_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/s
     3021                      .dwattr $C$DW$179, DW_AT_TI_end_line(0x21f)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   59
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   59
 
     3022                      .dwattr $C$DW$179, DW_AT_TI_end_column(0x01)
     3023                      .dwendentry
@@ -3538,10 +3538,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3074              $C$DW$192       .dwtag  DW_TAG_variable
     3075                      .dwattr $C$DW$192, DW_AT_name("level")
     3076                      .dwattr $C$DW$192, DW_AT_TI_symbol_name("_level")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   60
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   60
 
     3077                      .dwattr $C$DW$192, DW_AT_type(*$C$DW$T$113)
     3078                      .dwattr $C$DW$192, DW_AT_location[DW_OP_reg6]
@@ -3598,10 +3598,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3124 00000421 86BE          MOVL      XAR2,*--SP            ; [CPU_] 
     3125                      .dwcfi  cfa_offset, -4
     3126                      .dwcfi  restore_reg, 9
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   61
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   61
 
     3127 00000422 8BBE          MOVL      XAR1,*--SP            ; [CPU_] 
     3128                      .dwcfi  cfa_offset, -2
@@ -3658,10 +3658,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3179              ;***************************************************************
     3180              
     3181              _DRV8305_setGpioNumber:
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   62
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   62
 
     3182              ;* AR4   assigned to _handle
     3183              $C$DW$200       .dwtag  DW_TAG_variable
@@ -3718,10 +3718,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3234              
     3235              $C$DW$205       .dwtag  DW_TAG_formal_parameter
     3236                      .dwattr $C$DW$205, DW_AT_name("gpioHandle")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   63
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   63
 
     3237                      .dwattr $C$DW$205, DW_AT_TI_symbol_name("_gpioHandle")
     3238                      .dwattr $C$DW$205, DW_AT_type(*$C$DW$T$22)
@@ -3778,10 +3778,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3289                      .dwattr $C$DW$209, DW_AT_high_pc(0x00)
     3290                      .dwattr $C$DW$209, DW_AT_TI_symbol_name("_DRV8305_setDeadTime")
     3291                      .dwattr $C$DW$209, DW_AT_external
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   64
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   64
 
     3292                      .dwattr $C$DW$209, DW_AT_TI_begin_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305
     3293                      .dwattr $C$DW$209, DW_AT_TI_begin_line(0x25e)
@@ -3838,10 +3838,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3344                      .dwcfi  save_reg_to_mem, 26, 0
     3345 00000428 B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
     3346                      .dwcfi  save_reg_to_mem, 7, 2
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   65
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   65
 
     3347                      .dwcfi  cfa_offset, -4
     3348 00000429 59A9          MOVZ      AR1,AL                ; [CPU_] |607| 
@@ -3898,10 +3898,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3394                      .dwattr $C$DW$209, DW_AT_TI_end_column(0x01)
     3395                      .dwendentry
     3396                      .dwendtag $C$DW$209
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   66
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   66
 
     3397              
     3398 0000043c               .sect   ".text"
@@ -3958,10 +3958,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3449                      .dwattr $C$DW$222, DW_AT_location[DW_OP_reg10]
     3450              
     3451              ;* AR1   assigned to _ampNumber
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   67
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   67
 
     3452              $C$DW$223       .dwtag  DW_TAG_variable
     3453                      .dwattr $C$DW$223, DW_AT_name("ampNumber")
@@ -4018,10 +4018,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3502                      ; branchcc occurs ; [] |774| 
     3503                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     3504 0000044a 5202          CMPB      AL,#2                 ; [CPU_] |778| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   68
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   68
 
     3505 0000044b 6106          B         $C$L7,EQ              ; [CPU_] |778| 
     3506                      ; branchcc occurs ; [] |778| 
@@ -4078,10 +4078,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3552                      .dwattr $C$DW$218, DW_AT_TI_end_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/s
     3553                      .dwattr $C$DW$218, DW_AT_TI_end_line(0x31a)
     3554                      .dwattr $C$DW$218, DW_AT_TI_end_column(0x01)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   69
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   69
 
     3555                      .dwendentry
     3556                      .dwendtag $C$DW$218
@@ -4138,10 +4138,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3607                      .dwattr $C$DW$233, DW_AT_name("mode")
     3608                      .dwattr $C$DW$233, DW_AT_TI_symbol_name("_mode")
     3609                      .dwattr $C$DW$233, DW_AT_type(*$C$DW$T$139)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   70
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   70
 
     3610                      .dwattr $C$DW$233, DW_AT_location[DW_OP_reg6]
     3611              
@@ -4198,10 +4198,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3657                      .dwcfi  cfa_offset, -4
     3658                      .dwcfi  restore_reg, 9
     3659 00000472 8BBE          MOVL      XAR1,*--SP            ; [CPU_] 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   71
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   71
 
     3660                      .dwcfi  cfa_offset, -2
     3661                      .dwcfi  restore_reg, 7
@@ -4258,10 +4258,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3712              
     3713              _DRV8305_setCSGain3:
     3714              ;* AR2   assigned to _handle
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   72
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   72
 
     3715              $C$DW$241       .dwtag  DW_TAG_variable
     3716                      .dwattr $C$DW$241, DW_AT_name("handle")
@@ -4318,10 +4318,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3763 00000482 CBA1          OR        AH,AR1                ; [CPU_] |734| 
     3764                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     3765              $C$DW$245       .dwtag  DW_TAG_TI_branch
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   73
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   73
 
     3766                      .dwattr $C$DW$245, DW_AT_low_pc(0x00)
     3767                      .dwattr $C$DW$245, DW_AT_name("_DRV8305_writeSpi")
@@ -4378,10 +4378,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3817                      .dwattr $C$DW$249, DW_AT_location[DW_OP_reg0]
     3818              
     3819              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   74
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   74
 
     3820              ;***************************************************************
     3821              ;* FNAME: _DRV8305_setCSGain2           FR SIZE:   4           *
@@ -4438,10 +4438,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
          0000048f 0100 
     3871                      ; call occurs [#_DRV8305_readSpi] ; [] |711| 
     3872 00000490 93A9          MOV       AH,AL                 ; [CPU_] |711| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   75
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   75
 
     3873                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     3874 00000491 18A8          AND       AH,#0xfff3            ; [CPU_] |714| 
@@ -4498,10 +4498,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3922                      .dwfde $C$DW$CIE, _DRV8305_setCSGain1
     3923              $C$DW$257       .dwtag  DW_TAG_formal_parameter
     3924                      .dwattr $C$DW$257, DW_AT_name("handle")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   76
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   76
 
     3925                      .dwattr $C$DW$257, DW_AT_TI_symbol_name("_handle")
     3926                      .dwattr $C$DW$257, DW_AT_type(*$C$DW$T$110)
@@ -4558,10 +4558,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     3976                      .dwcfi  save_reg_to_mem, 9, 4
     3977                      .dwcfi  cfa_offset, -6
     3978                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   77
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   77
 
     3979 000004a1 86A4          MOVL      XAR2,XAR4             ; [CPU_] |687| 
     3980                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
@@ -4618,10 +4618,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4027                      .dwattr $C$DW$265, DW_AT_name("DRV8305_setCSBlank")
     4028                      .dwattr $C$DW$265, DW_AT_low_pc(_DRV8305_setCSBlank)
     4029                      .dwattr $C$DW$265, DW_AT_high_pc(0x00)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   78
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   78
 
     4030                      .dwattr $C$DW$265, DW_AT_TI_symbol_name("_DRV8305_setCSBlank")
     4031                      .dwattr $C$DW$265, DW_AT_external
@@ -4678,10 +4678,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4082              
     4083                      .dwcfi  cfa_offset, -2
     4084                      .dwcfi  save_reg_to_mem, 26, 0
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   79
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   79
 
     4085 000004b0 B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
     4086                      .dwcfi  save_reg_to_mem, 7, 2
@@ -4738,10 +4738,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4132                      .dwattr $C$DW$265, DW_AT_TI_end_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/s
     4133                      .dwattr $C$DW$265, DW_AT_TI_end_line(0x2fb)
     4134                      .dwattr $C$DW$265, DW_AT_TI_end_column(0x01)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   80
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   80
 
     4135                      .dwendentry
     4136                      .dwendtag $C$DW$265
@@ -4798,10 +4798,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4187                      .dwcfi  save_reg_to_mem, 26, 0
     4188 000004c4 B2BD          MOVL      *SP++,XAR1            ; [CPU_] 
     4189                      .dwcfi  save_reg_to_mem, 7, 2
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   81
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   81
 
     4190                      .dwcfi  cfa_offset, -4
     4191                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
@@ -4858,10 +4858,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4238                      .dwattr $C$DW$281, DW_AT_TI_symbol_name("_DRV8305_readData")
     4239                      .dwattr $C$DW$281, DW_AT_external
     4240                      .dwattr $C$DW$281, DW_AT_TI_begin_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   82
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   82
 
     4241                      .dwattr $C$DW$281, DW_AT_TI_begin_line(0x4e7)
     4242                      .dwattr $C$DW$281, DW_AT_TI_begin_column(0x06)
@@ -4918,10 +4918,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4293                      .dwattr $C$DW$287, DW_AT_name("drvDataNew")
     4294                      .dwattr $C$DW$287, DW_AT_TI_symbol_name("_drvDataNew")
     4295                      .dwattr $C$DW$287, DW_AT_type(*$C$DW$T$52)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   83
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   83
 
     4296                      .dwattr $C$DW$287, DW_AT_location[DW_OP_reg0]
     4297              
@@ -4978,10 +4978,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4348              $C$DW$295       .dwtag  DW_TAG_variable
     4349                      .dwattr $C$DW$295, DW_AT_name("drvDataNew")
     4350                      .dwattr $C$DW$295, DW_AT_TI_symbol_name("_drvDataNew")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   84
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   84
 
     4351                      .dwattr $C$DW$295, DW_AT_type(*$C$DW$T$52)
     4352                      .dwattr $C$DW$295, DW_AT_location[DW_OP_reg0]
@@ -5038,10 +5038,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4399 000004e3 FFD0          LSR       AH,1                  ; [CPU_] |1266| 
     4400 000004e4 9101          ANDB      AH,#0x01              ; [CPU_] |1266| 
     4401 000004e5 97C9          MOV       *+XAR1[1],AH          ; [CPU_] |1266| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   85
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   85
 
     4402                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4403 000004e6 D008          MOVB      XAR0,#8               ; [CPU_] |1273| 
@@ -5098,10 +5098,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4454 0000050c 9691          MOV       *+XAR1[AR0],AL        ; [CPU_] |1275| 
     4455                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4456 0000050d 28A9          MOV       AL,#4096              ; [CPU_] |1279| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   86
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   86
 
          0000050e 1000 
     4457              $C$DW$299       .dwtag  DW_TAG_TI_branch
@@ -5158,10 +5158,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4506 00000533 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1286| 
     4507                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4508 00000534 D012          MOVB      XAR0,#18              ; [CPU_] |1287| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   87
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   87
 
     4509 00000535 93A9          MOV       AH,AL                 ; [CPU_] |1287| 
     4510 00000536 FFD6          LSR       AH,7                  ; [CPU_] |1287| 
@@ -5218,10 +5218,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4558                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4559 00000559 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1297| 
     4560                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   88
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   88
 
     4561 0000055a D01D          MOVB      XAR0,#29              ; [CPU_] |1298| 
     4562 0000055b 93A9          MOV       AH,AL                 ; [CPU_] |1298| 
@@ -5278,10 +5278,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4612                      .dwattr $C$DW$301, DW_AT_low_pc(0x00)
     4613                      .dwattr $C$DW$301, DW_AT_name("_DRV8305_readSpi")
     4614                      .dwattr $C$DW$301, DW_AT_TI_call
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   89
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   89
 
     4615              
     4616 00000583 7640'         LCR       #_DRV8305_readSpi     ; [CPU_] |1309| 
@@ -5338,10 +5338,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4665 000005ab 9101          ANDB      AH,#0x01              ; [CPU_] |1317| 
     4666 000005ac 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1317| 
     4667                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   90
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   90
 
     4668 000005ad D029          MOVB      XAR0,#41              ; [CPU_] |1318| 
     4669 000005ae 93A9          MOV       AH,AL                 ; [CPU_] |1318| 
@@ -5398,10 +5398,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4715 000005cf 8AA2          MOVL      XAR4,XAR2             ; [CPU_] |1332| 
     4716 000005d0 28A9          MOV       AL,#12288             ; [CPU_] |1332| 
          000005d1 3000 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   91
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   91
 
     4717              $C$DW$303       .dwtag  DW_TAG_TI_branch
     4718                      .dwattr $C$DW$303, DW_AT_low_pc(0x00)
@@ -5458,10 +5458,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
          000005ef 000C 
     4762                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4763 000005f0 8AA2          MOVL      XAR4,XAR2             ; [CPU_] |1355| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   92
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   92
 
     4764                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4765 000005f1 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1342| 
@@ -5518,10 +5518,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4810                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4811 00000613 9101          ANDB      AH,#0x01              ; [CPU_] |1358| 
     4812 00000614 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1358| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   93
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   93
 
     4813                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4814 00000615 D03E          MOVB      XAR0,#62              ; [CPU_] |1359| 
@@ -5578,10 +5578,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4862                      ; call occurs [#_DRV8305_readSpi] ; [] |1369| 
     4863                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4864 0000063a D045          MOVB      XAR0,#69              ; [CPU_] |1370| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   94
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   94
 
     4865 0000063b CDA9          AND       AH,AL,#0x0003         ; [CPU_] |1370| 
          0000063c 0003 
@@ -5638,10 +5638,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     4911 0000065e CDA9          AND       AH,AL,#0x0003         ; [CPU_] |1381| 
          0000065f 0003 
     4912 00000660 9791          MOV       *+XAR1[AR0],AH        ; [CPU_] |1381| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   95
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   95
 
     4913                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     4914 00000661 D04D          MOVB      XAR0,#77              ; [CPU_] |1382| 
@@ -5698,10 +5698,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
          00000685 0100 
     4962                      ; call occurs [#_DRV8305_readSpi] ; [] |1392| 
     4963                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   96
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   96
 
     4964 00000686 D054          MOVB      XAR0,#84              ; [CPU_] |1393| 
     4965 00000687 CDA9          AND       AH,AL,#0x0007         ; [CPU_] |1393| 
@@ -5758,10 +5758,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5012                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     5013 000006a7 D05E          MOVB      XAR0,#94              ; [CPU_] |1408| 
     5014 000006a8 9691          MOV       *+XAR1[AR0],AL        ; [CPU_] |1408| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   97
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   97
 
     5015                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     5016 000006a9 D060          MOVB      XAR0,#96              ; [CPU_] |1410| 
@@ -5818,10 +5818,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5067              ;* FUNCTION PROPERTIES                                         *
     5068              ;*                            0 Parameter,  0 Auto,  0 SOE     *
     5069              ;***************************************************************
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   98
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   98
 
     5070              
     5071 000006ae       _DRV8305_isFault:
@@ -5878,10 +5878,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5120                      .dwattr $C$DW$316, DW_AT_location[DW_OP_reg12]
     5121              
     5122              $C$DW$317       .dwtag  DW_TAG_formal_parameter
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE   99
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE   99
 
     5123                      .dwattr $C$DW$317, DW_AT_name("numBytes")
     5124                      .dwattr $C$DW$317, DW_AT_TI_symbol_name("_numBytes")
@@ -5938,10 +5938,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5175 000006bc 2BF4          MOV       *+XAR4[6],#0          ; [CPU_] |1438| 
     5176              $C$DW$321       .dwtag  DW_TAG_TI_branch
     5177                      .dwattr $C$DW$321, DW_AT_low_pc(0x00)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  100
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  100
 
     5178                      .dwattr $C$DW$321, DW_AT_TI_return
     5179              
@@ -5998,10 +5998,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5230                      .dwcfi  cfa_offset, -2
     5231                      .dwcfi  save_reg_to_mem, 26, 0
     5232                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  101
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  101
 
     5233 000006be 28A9          MOV       AL,#18432             ; [CPU_] |273| 
          000006bf 4800 
@@ -6058,10 +6058,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5283              ;* FUNCTION ENVIRONMENT                                        *
     5284              ;*                                                             *
     5285              ;* FUNCTION PROPERTIES                                         *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  102
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  102
 
     5286              ;*                            0 Parameter,  0 Auto,  0 SOE     *
     5287              ;***************************************************************
@@ -6118,10 +6118,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5336                      .dwattr $C$DW$332, DW_AT_TI_max_frame_size(-2)
     5337                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     5338              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  103
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  103
 
     5339                      .dwfde $C$DW$CIE, _DRV8305_getVrefScaling
     5340              $C$DW$333       .dwtag  DW_TAG_formal_parameter
@@ -6178,10 +6178,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5388              
     5389 000006d1               .sect   ".text"
     5390                      .clink
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  104
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  104
 
     5391                      .global _DRV8305_getVDSMode
     5392              
@@ -6238,10 +6238,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5441                      ; call occurs [#_DRV8305_readSpi] ; [] |410| 
     5442                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     5443 000006d5 9007          ANDB      AL,#0x07              ; [CPU_] |415| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  105
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  105
 
     5444              $C$DW$341       .dwtag  DW_TAG_TI_branch
     5445                      .dwattr $C$DW$341, DW_AT_low_pc(0x00)
@@ -6298,10 +6298,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5496                      .dwattr $C$DW$344, DW_AT_location[DW_OP_reg0]
     5497              
     5498                      .dwcfi  cfa_offset, -2
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  106
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  106
 
     5499                      .dwcfi  save_reg_to_mem, 26, 0
     5500                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
@@ -6358,10 +6358,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5549              ;* FNAME: _DRV8305_getVDSDeglitch       FR SIZE:   0           *
     5550              ;*                                                             *
     5551              ;* FUNCTION ENVIRONMENT                                        *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  107
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  107
 
     5552              ;*                                                             *
     5553              ;* FUNCTION PROPERTIES                                         *
@@ -6418,10 +6418,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5602                      .dwattr $C$DW$352, DW_AT_TI_begin_line(0xd4)
     5603                      .dwattr $C$DW$352, DW_AT_TI_begin_column(0x1e)
     5604                      .dwattr $C$DW$352, DW_AT_TI_max_frame_size(-2)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  108
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  108
 
     5605                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     5606              
@@ -6478,10 +6478,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5655                      .dwendtag $C$DW$352
     5656              
     5657 000006e9               .sect   ".text"
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  109
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  109
 
     5658                      .clink
     5659                      .global _DRV8305_getSleepDelay
@@ -6538,10 +6538,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
          000006ec 0100 
     5709                      ; call occurs [#_DRV8305_readSpi] ; [] |382| 
     5710                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  110
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  110
 
     5711 000006ed 9018          ANDB      AL,#0x18              ; [CPU_] |387| 
     5712              $C$DW$361       .dwtag  DW_TAG_TI_branch
@@ -6598,10 +6598,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5763                      .dwattr $C$DW$364, DW_AT_type(*$C$DW$T$52)
     5764                      .dwattr $C$DW$364, DW_AT_location[DW_OP_reg0]
     5765              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  111
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  111
 
     5766                      .dwcfi  cfa_offset, -2
     5767                      .dwcfi  save_reg_to_mem, 26, 0
@@ -6658,10 +6658,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5815              
     5816              ;***************************************************************
     5817              ;* FNAME: _DRV8305_getPeakSourTime      FR SIZE:   0           *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  112
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  112
 
     5818              ;*                                                             *
     5819              ;* FUNCTION ENVIRONMENT                                        *
@@ -6718,10 +6718,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5867                      .dwattr $C$DW$372, DW_AT_external
     5868                      .dwattr $C$DW$372, DW_AT_type(*$C$DW$T$35)
     5869                      .dwattr $C$DW$372, DW_AT_TI_begin_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  113
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  113
 
     5870                      .dwattr $C$DW$372, DW_AT_TI_begin_line(0x9c)
     5871                      .dwattr $C$DW$372, DW_AT_TI_begin_column(0x20)
@@ -6778,10 +6778,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5920                      .dwattr $C$DW$372, DW_AT_TI_end_line(0xa7)
     5921                      .dwattr $C$DW$372, DW_AT_TI_end_column(0x01)
     5922                      .dwendentry
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  114
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  114
 
     5923                      .dwendtag $C$DW$372
     5924              
@@ -6838,10 +6838,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     5974                      .dwattr $C$DW$380, DW_AT_TI_call
     5975              
     5976 00000705 7640'         LCR       #_DRV8305_readSpi     ; [CPU_] |119| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  115
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  115
 
          00000706 0100 
     5977                      ; call occurs [#_DRV8305_readSpi] ; [] |119| 
@@ -6898,10 +6898,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6028              $C$DW$384       .dwtag  DW_TAG_variable
     6029                      .dwattr $C$DW$384, DW_AT_name("data")
     6030                      .dwattr $C$DW$384, DW_AT_TI_symbol_name("_data")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  116
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  116
 
     6031                      .dwattr $C$DW$384, DW_AT_type(*$C$DW$T$52)
     6032                      .dwattr $C$DW$384, DW_AT_location[DW_OP_reg0]
@@ -6958,10 +6958,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6080                      .dwattr $C$DW$388, DW_AT_type(*$C$DW$T$110)
     6081                      .dwattr $C$DW$388, DW_AT_location[DW_OP_reg12]
     6082              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  117
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  117
 
     6083              
     6084              ;***************************************************************
@@ -7018,10 +7018,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6133                      .dwattr $C$DW$392, DW_AT_high_pc(0x00)
     6134                      .dwattr $C$DW$392, DW_AT_TI_symbol_name("_DRV8305_getPeakSinkCurHS")
     6135                      .dwattr $C$DW$392, DW_AT_external
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  118
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  118
 
     6136                      .dwattr $C$DW$392, DW_AT_type(*$C$DW$T$30)
     6137                      .dwattr $C$DW$392, DW_AT_TI_begin_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305
@@ -7078,10 +7078,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6186                      ; return occurs ; [] 
     6187                      .dwattr $C$DW$392, DW_AT_TI_end_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/s
     6188                      .dwattr $C$DW$392, DW_AT_TI_end_line(0x8b)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  119
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  119
 
     6189                      .dwattr $C$DW$392, DW_AT_TI_end_column(0x01)
     6190                      .dwendentry
@@ -7138,10 +7138,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6240                      .dwattr $C$DW$400, DW_AT_low_pc(0x00)
     6241                      .dwattr $C$DW$400, DW_AT_name("_DRV8305_readSpi")
     6242                      .dwattr $C$DW$400, DW_AT_TI_call
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  120
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  120
 
     6243              
     6244 0000071e 7640'         LCR       #_DRV8305_readSpi     ; [CPU_] |231| 
@@ -7198,10 +7198,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6294              ;* FUNCTION ENVIRONMENT                                        *
     6295              ;*                                                             *
     6296              ;* FUNCTION PROPERTIES                                         *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  121
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  121
 
     6297              ;*                            0 Parameter,  0 Auto,  2 SOE     *
     6298              ;***************************************************************
@@ -7258,10 +7258,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6346                      ; branch occurs ; [] |356| 
     6347 00000732       $C$L13:    
     6348                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  122
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  122
 
     6349 00000732 18A9          AND       AL,#0x0200            ; [CPU_] |352| 
          00000733 0200 
@@ -7318,10 +7318,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6399              ;*                                                             *
     6400              ;* FUNCTION ENVIRONMENT                                        *
     6401              ;*                                                             *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  123
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  123
 
     6402              ;* FUNCTION PROPERTIES                                         *
     6403              ;*                            0 Parameter,  0 Auto,  0 SOE     *
@@ -7378,10 +7378,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6451                      .dwattr $C$DW$414, DW_AT_TI_begin_line(0x136)
     6452                      .dwattr $C$DW$414, DW_AT_TI_begin_column(0x1a)
     6453                      .dwattr $C$DW$414, DW_AT_TI_max_frame_size(-2)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  124
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  124
 
     6454                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     6455              
@@ -7438,10 +7438,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6504                      .dwendtag $C$DW$414
     6505              
     6506 00000746               .sect   ".text"
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  125
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  125
 
     6507                      .clink
     6508                      .global _DRV8305_getCSGain2
@@ -7498,10 +7498,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
          00000749 0100 
     6558                      ; call occurs [#_DRV8305_readSpi] ; [] |301| 
     6559                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  126
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  126
 
     6560 0000074a 900C          ANDB      AL,#0x0c              ; [CPU_] |306| 
     6561              $C$DW$423       .dwtag  DW_TAG_TI_branch
@@ -7558,10 +7558,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6612                      .dwattr $C$DW$426, DW_AT_type(*$C$DW$T$52)
     6613                      .dwattr $C$DW$426, DW_AT_location[DW_OP_reg0]
     6614              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  127
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  127
 
     6615                      .dwcfi  cfa_offset, -2
     6616                      .dwcfi  save_reg_to_mem, 26, 0
@@ -7618,10 +7618,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6665              ;***************************************************************
     6666              ;* FNAME: _DRV8305_getCSBlank           FR SIZE:   0           *
     6667              ;*                                                             *
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  128
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  128
 
     6668              ;* FUNCTION ENVIRONMENT                                        *
     6669              ;*                                                             *
@@ -7678,10 +7678,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6718                      .dwattr $C$DW$434, DW_AT_TI_begin_line(0x56)
     6719                      .dwattr $C$DW$434, DW_AT_TI_begin_column(0x06)
     6720                      .dwattr $C$DW$434, DW_AT_TI_max_frame_size(-4)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  129
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  129
 
     6721                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     6722              
@@ -7738,10 +7738,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
          0000075f 0000 
     6772                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     6773 00000760 2B01-         MOV       @_enableWaitTimeOut$1,#0 ; [CPU_] |95| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  130
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  130
 
     6774                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/src/32b/f28x/f2802x/drv83
     6775 00000761 6F06          B         $C$L17,UNC            ; [CPU_] |98| 
@@ -7798,10 +7798,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6818                      .dwattr $C$DW$434, DW_AT_TI_end_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/drvic/drv8305/s
     6819                      .dwattr $C$DW$434, DW_AT_TI_end_line(0x6f)
     6820                      .dwattr $C$DW$434, DW_AT_TI_end_column(0x01)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  131
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  131
 
     6821                      .dwendentry
     6822                      .dwendtag $C$DW$434
@@ -7858,10 +7858,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6873              
     6874              $C$DW$450       .dwtag  DW_TAG_enumerator
     6875                      .dwattr $C$DW$450, DW_AT_name("GPIO_Rsvd_9")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  132
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  132
 
     6876                      .dwattr $C$DW$450, DW_AT_const_value(0x09)
     6877              
@@ -7918,10 +7918,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6928                      .dwattr $C$DW$463, DW_AT_const_value(0x16)
     6929              
     6930              $C$DW$464       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  133
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  133
 
     6931                      .dwattr $C$DW$464, DW_AT_name("GPIO_Rsvd_23")
     6932                      .dwattr $C$DW$464, DW_AT_const_value(0x17)
@@ -7978,10 +7978,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     6983                      .dwattr $C$DW$477, DW_AT_name("GPIO_Number_36")
     6984                      .dwattr $C$DW$477, DW_AT_const_value(0x24)
     6985              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  134
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  134
 
     6986              $C$DW$478       .dwtag  DW_TAG_enumerator
     6987                      .dwattr $C$DW$478, DW_AT_name("GPIO_Number_37")
@@ -8038,10 +8038,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7038                      .dwattr $C$DW$487, DW_AT_const_value(0x04)
     7039              
     7040              $C$DW$488       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  135
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  135
 
     7041                      .dwattr $C$DW$488, DW_AT_name("ISour_HS_0p060_A")
     7042                      .dwattr $C$DW$488, DW_AT_const_value(0x05)
@@ -8098,10 +8098,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7093                      .dwattr $C$DW$498, DW_AT_name("ISink_HS_0p040_A")
     7094                      .dwattr $C$DW$498, DW_AT_const_value(0x20)
     7095              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  136
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  136
 
     7096              $C$DW$499       .dwtag  DW_TAG_enumerator
     7097                      .dwattr $C$DW$499, DW_AT_name("ISink_HS_0p050_A")
@@ -8158,10 +8158,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7148              $C$DW$509       .dwtag  DW_TAG_enumerator
     7149                      .dwattr $C$DW$509, DW_AT_name("TSour_250_ns")
     7150                      .dwattr $C$DW$509, DW_AT_const_value(0x00)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  137
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  137
 
     7151              
     7152              $C$DW$510       .dwtag  DW_TAG_enumerator
@@ -8218,10 +8218,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7203              
     7204              $C$DW$520       .dwtag  DW_TAG_enumerator
     7205                      .dwattr $C$DW$520, DW_AT_name("ISour_LS_0p070_A")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  138
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  138
 
     7206                      .dwattr $C$DW$520, DW_AT_const_value(0x06)
     7207              
@@ -8278,10 +8278,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7258              $C$DW$531       .dwtag  DW_TAG_enumerator
     7259                      .dwattr $C$DW$531, DW_AT_name("ISink_LS_0p070_A")
     7260                      .dwattr $C$DW$531, DW_AT_const_value(0x50)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  139
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  139
 
     7261              
     7262              $C$DW$532       .dwtag  DW_TAG_enumerator
@@ -8338,10 +8338,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7313              
     7314              $C$DW$542       .dwtag  DW_TAG_enumerator
     7315                      .dwattr $C$DW$542, DW_AT_name("TSink_2000_ns")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  140
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  140
 
     7316                      .dwattr $C$DW$542, DW_AT_const_value(0x300)
     7317              
@@ -8398,10 +8398,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7368                      .dwattr $C$DW$549, DW_AT_const_value(0x00)
     7369              
     7370              $C$DW$550       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  141
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  141
 
     7371                      .dwattr $C$DW$550, DW_AT_name("VDSBlnk_2_us")
     7372                      .dwattr $C$DW$550, DW_AT_const_value(0x04)
@@ -8458,10 +8458,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7423                      .dwattr $C$DW$560, DW_AT_name("DeadTime_4000_ns")
     7424                      .dwattr $C$DW$560, DW_AT_const_value(0x60)
     7425              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  142
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  142
 
     7426              $C$DW$561       .dwtag  DW_TAG_enumerator
     7427                      .dwattr $C$DW$561, DW_AT_name("DeadTime_6000_ns")
@@ -8518,10 +8518,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7478              $C$DW$568       .dwtag  DW_TAG_enumerator
     7479                      .dwattr $C$DW$568, DW_AT_name("Actv")
     7480                      .dwattr $C$DW$568, DW_AT_const_value(0x200)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  143
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  143
 
     7481              
     7482                      .dwendtag $C$DW$T$49
@@ -8578,10 +8578,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7533              
     7534              $C$DW$576       .dwtag  DW_TAG_enumerator
     7535                      .dwattr $C$DW$576, DW_AT_name("Gain1_20VpV")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  144
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  144
 
     7536                      .dwattr $C$DW$576, DW_AT_const_value(0x01)
     7537              
@@ -8638,10 +8638,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7588              $C$DW$T$148     .dwtag  DW_TAG_const_type
     7589                      .dwattr $C$DW$T$148, DW_AT_type(*$C$DW$584)
     7590              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  145
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  145
 
     7591              
     7592              $C$DW$T$61      .dwtag  DW_TAG_enumeration_type
@@ -8698,10 +8698,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7643              
     7644              $C$DW$T$64      .dwtag  DW_TAG_typedef
     7645                      .dwattr $C$DW$T$64, DW_AT_name("DRV8305_CTRL0A_CSBlank_e")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  146
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  146
 
     7646                      .dwattr $C$DW$T$64, DW_AT_type(*$C$DW$T$63)
     7647                      .dwattr $C$DW$T$64, DW_AT_language(DW_LANG_C)
@@ -8758,10 +8758,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7698              $C$DW$602       .dwtag  DW_TAG_enumerator
     7699                      .dwattr $C$DW$602, DW_AT_name("SleepDly_1_ms")
     7700                      .dwattr $C$DW$602, DW_AT_const_value(0x18)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  147
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  147
 
     7701              
     7702                      .dwendtag $C$DW$T$68
@@ -8818,10 +8818,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7753              
     7754              $C$DW$610       .dwtag  DW_TAG_enumerator
     7755                      .dwattr $C$DW$610, DW_AT_name("Disable_VDS")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  148
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  148
 
     7756                      .dwattr $C$DW$610, DW_AT_const_value(0x02)
     7757              
@@ -8878,10 +8878,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7808                      .dwattr $C$DW$620, DW_AT_const_value(0x40)
     7809              
     7810              $C$DW$621       .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  149
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  149
 
     7811                      .dwattr $C$DW$621, DW_AT_name("VDS_Level_0p175_V")
     7812                      .dwattr $C$DW$621, DW_AT_const_value(0x48)
@@ -8938,10 +8938,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7863                      .dwattr $C$DW$634, DW_AT_name("VDS_Level_0p822_V")
     7864                      .dwattr $C$DW$634, DW_AT_const_value(0xb0)
     7865              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  150
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  150
 
     7866              $C$DW$635       .dwtag  DW_TAG_enumerator
     7867                      .dwattr $C$DW$635, DW_AT_name("VDS_Level_0p926_V")
@@ -8998,10 +8998,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7918              $C$DW$645       .dwtag  DW_TAG_enumerator
     7919                      .dwattr $C$DW$645, DW_AT_name("SPI_FifoStatus_1_Word")
     7920                      .dwattr $C$DW$645, DW_AT_const_value(0x100)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  151
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  151
 
     7921              
     7922              $C$DW$646       .dwtag  DW_TAG_enumerator
@@ -9058,10 +9058,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     7973                      .dwattr $C$DW$653, DW_AT_name("Address_Status_2")
     7974                      .dwattr $C$DW$653, DW_AT_const_value(0x1000)
     7975              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  152
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  152
 
     7976              $C$DW$654       .dwtag  DW_TAG_enumerator
     7977                      .dwattr $C$DW$654, DW_AT_name("Address_Status_3")
@@ -9118,10 +9118,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8028              
     8029              
     8030              $C$DW$T$184     .dwtag  DW_TAG_enumeration_type
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  153
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  153
 
     8031                      .dwattr $C$DW$T$184, DW_AT_byte_size(0x01)
     8032              $C$DW$665       .dwtag  DW_TAG_enumerator
@@ -9178,10 +9178,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8083              
     8084                      .dwendtag $C$DW$T$187
     8085              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  154
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  154
 
     8086              $C$DW$T$188     .dwtag  DW_TAG_typedef
     8087                      .dwattr $C$DW$T$188, DW_AT_name("DRV8305_ShuntAmpNumber_e")
@@ -9238,10 +9238,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8138              $C$DW$T$192     .dwtag  DW_TAG_typedef
     8139                      .dwattr $C$DW$T$192, DW_AT_name("DRV8305_Obj")
     8140                      .dwattr $C$DW$T$192, DW_AT_type(*$C$DW$T$26)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  155
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  155
 
     8141                      .dwattr $C$DW$T$192, DW_AT_language(DW_LANG_C)
     8142              
@@ -9298,10 +9298,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8193                      .dwattr $C$DW$T$86, DW_AT_name("DRV_SPI_8305_Ctrl05_t_")
     8194                      .dwattr $C$DW$T$86, DW_AT_type(*$C$DW$T$33)
     8195                      .dwattr $C$DW$T$86, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  156
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  156
 
     8196              
     8197              
@@ -9358,10 +9358,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8248                      .dwattr $C$DW$691, DW_AT_type(*$C$DW$T$44)
     8249                      .dwattr $C$DW$691, DW_AT_name("TBLANK")
     8250                      .dwattr $C$DW$691, DW_AT_TI_symbol_name("_TBLANK")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  157
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  157
 
     8251                      .dwattr $C$DW$691, DW_AT_data_member_location[DW_OP_plus_uconst 0x1]
     8252                      .dwattr $C$DW$691, DW_AT_accessibility(DW_ACCESS_public)
@@ -9418,10 +9418,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8303                      .dwattr $C$DW$T$89, DW_AT_name("DRV_SPI_8305_Ctrl08_t_")
     8304                      .dwattr $C$DW$T$89, DW_AT_type(*$C$DW$T$53)
     8305                      .dwattr $C$DW$T$89, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  158
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  158
 
     8306              
     8307              
@@ -9478,10 +9478,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8358                      .dwattr $C$DW$703, DW_AT_accessibility(DW_ACCESS_public)
     8359              
     8360              $C$DW$704       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  159
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  159
 
     8361                      .dwattr $C$DW$704, DW_AT_type(*$C$DW$T$25)
     8362                      .dwattr $C$DW$704, DW_AT_name("DIS_GDRV_FAULT")
@@ -9538,10 +9538,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8413              $C$DW$710       .dwtag  DW_TAG_member
     8414                      .dwattr $C$DW$710, DW_AT_type(*$C$DW$T$64)
     8415                      .dwattr $C$DW$710, DW_AT_name("CS_BLANK")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  160
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  160
 
     8416                      .dwattr $C$DW$710, DW_AT_TI_symbol_name("_CS_BLANK")
     8417                      .dwattr $C$DW$710, DW_AT_data_member_location[DW_OP_plus_uconst 0x3]
@@ -9598,10 +9598,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8468                      .dwattr $C$DW$716, DW_AT_name("SLP_DLY")
     8469                      .dwattr $C$DW$716, DW_AT_TI_symbol_name("_SLP_DLY")
     8470                      .dwattr $C$DW$716, DW_AT_data_member_location[DW_OP_plus_uconst 0x2]
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  161
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  161
 
     8471                      .dwattr $C$DW$716, DW_AT_accessibility(DW_ACCESS_public)
     8472              
@@ -9658,10 +9658,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8523                      .dwattr $C$DW$722, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
     8524                      .dwattr $C$DW$722, DW_AT_accessibility(DW_ACCESS_public)
     8525              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  162
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  162
 
     8526              $C$DW$723       .dwtag  DW_TAG_member
     8527                      .dwattr $C$DW$723, DW_AT_type(*$C$DW$T$76)
@@ -9718,10 +9718,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8578              
     8579              $C$DW$729       .dwtag  DW_TAG_member
     8580                      .dwattr $C$DW$729, DW_AT_type(*$C$DW$T$25)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  163
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  163
 
     8581                      .dwattr $C$DW$729, DW_AT_name("TEMP_FLAG2")
     8582                      .dwattr $C$DW$729, DW_AT_TI_symbol_name("_TEMP_FLAG2")
@@ -9778,10 +9778,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8633                      .dwattr $C$DW$736, DW_AT_accessibility(DW_ACCESS_public)
     8634              
     8635              $C$DW$737       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  164
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  164
 
     8636                      .dwattr $C$DW$737, DW_AT_type(*$C$DW$T$25)
     8637                      .dwattr $C$DW$737, DW_AT_name("FAULT")
@@ -9838,10 +9838,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8688              $C$DW$743       .dwtag  DW_TAG_member
     8689                      .dwattr $C$DW$743, DW_AT_type(*$C$DW$T$25)
     8690                      .dwattr $C$DW$743, DW_AT_name("FETLC_VDS")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  165
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  165
 
     8691                      .dwattr $C$DW$743, DW_AT_TI_symbol_name("_FETLC_VDS")
     8692                      .dwattr $C$DW$743, DW_AT_data_member_location[DW_OP_plus_uconst 0x5]
@@ -9898,10 +9898,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8743                      .dwattr $C$DW$749, DW_AT_name("VCPH_OVLO_ABS")
     8744                      .dwattr $C$DW$749, DW_AT_TI_symbol_name("_VCPH_OVLO_ABS")
     8745                      .dwattr $C$DW$749, DW_AT_data_member_location[DW_OP_plus_uconst 0x0]
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  166
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  166
 
     8746                      .dwattr $C$DW$749, DW_AT_accessibility(DW_ACCESS_public)
     8747              
@@ -9958,10 +9958,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8798                      .dwattr $C$DW$757, DW_AT_type(*$C$DW$T$25)
     8799                      .dwattr $C$DW$757, DW_AT_name("OTS")
     8800                      .dwattr $C$DW$757, DW_AT_TI_symbol_name("_OTS")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  167
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  167
 
     8801                      .dwattr $C$DW$757, DW_AT_data_member_location[DW_OP_plus_uconst 0x8]
     8802                      .dwattr $C$DW$757, DW_AT_accessibility(DW_ACCESS_public)
@@ -10018,10 +10018,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8853                      .dwattr $C$DW$763, DW_AT_TI_symbol_name("_STAT04_RSV2")
     8854                      .dwattr $C$DW$763, DW_AT_data_member_location[DW_OP_plus_uconst 0x3]
     8855                      .dwattr $C$DW$763, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  168
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  168
 
     8856              
     8857              $C$DW$764       .dwtag  DW_TAG_member
@@ -10078,10 +10078,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8908              $C$DW$T$85      .dwtag  DW_TAG_typedef
     8909                      .dwattr $C$DW$T$85, DW_AT_name("DRV_SPI_8305_Stat04_t_")
     8910                      .dwattr $C$DW$T$85, DW_AT_type(*$C$DW$T$81)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  169
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  169
 
     8911                      .dwattr $C$DW$T$85, DW_AT_language(DW_LANG_C)
     8912              
@@ -10138,10 +10138,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     8963                      .dwattr $C$DW$777, DW_AT_data_member_location[DW_OP_plus_uconst 0x34]
     8964                      .dwattr $C$DW$777, DW_AT_accessibility(DW_ACCESS_public)
     8965              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  170
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  170
 
     8966              $C$DW$778       .dwtag  DW_TAG_member
     8967                      .dwattr $C$DW$778, DW_AT_type(*$C$DW$T$89)
@@ -10198,10 +10198,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9018                      .dwattr $C$DW$785, DW_AT_TI_symbol_name("_ManWriteAddr")
     9019                      .dwattr $C$DW$785, DW_AT_data_member_location[DW_OP_plus_uconst 0x5b]
     9020                      .dwattr $C$DW$785, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  171
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  171
 
     9021              
     9022              $C$DW$786       .dwtag  DW_TAG_member
@@ -10258,10 +10258,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9073              
     9074              
     9075              $C$DW$T$104     .dwtag  DW_TAG_structure_type
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  172
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  172
 
     9076                      .dwattr $C$DW$T$104, DW_AT_name("_GPIO_Obj_")
     9077                      .dwattr $C$DW$T$104, DW_AT_byte_size(0x6a)
@@ -10318,10 +10318,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9128                      .dwattr $C$DW$799, DW_AT_type(*$C$DW$T$98)
     9129                      .dwattr $C$DW$799, DW_AT_name("rsvd_1")
     9130                      .dwattr $C$DW$799, DW_AT_TI_symbol_name("_rsvd_1")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  173
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  173
 
     9131                      .dwattr $C$DW$799, DW_AT_data_member_location[DW_OP_plus_uconst 0xe]
     9132                      .dwattr $C$DW$799, DW_AT_accessibility(DW_ACCESS_public)
@@ -10378,10 +10378,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9183              $C$DW$807       .dwtag  DW_TAG_member
     9184                      .dwattr $C$DW$807, DW_AT_type(*$C$DW$T$99)
     9185                      .dwattr $C$DW$807, DW_AT_name("rsvd_4")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  174
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  174
 
     9186                      .dwattr $C$DW$807, DW_AT_TI_symbol_name("_rsvd_4")
     9187                      .dwattr $C$DW$807, DW_AT_data_member_location[DW_OP_plus_uconst 0x1e]
@@ -10438,10 +10438,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9238              
     9239              $C$DW$815       .dwtag  DW_TAG_member
     9240                      .dwattr $C$DW$815, DW_AT_type(*$C$DW$T$96)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  175
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  175
 
     9241                      .dwattr $C$DW$815, DW_AT_name("GPATOGGLE")
     9242                      .dwattr $C$DW$815, DW_AT_TI_symbol_name("_GPATOGGLE")
@@ -10498,10 +10498,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9293                      .dwattr $C$DW$822, DW_AT_accessibility(DW_ACCESS_public)
     9294              
     9295              $C$DW$823       .dwtag  DW_TAG_member
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  176
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  176
 
     9296                      .dwattr $C$DW$823, DW_AT_type(*$C$DW$T$96)
     9297                      .dwattr $C$DW$823, DW_AT_name("AIOCLEAR")
@@ -10558,10 +10558,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9348              $C$DW$T$105     .dwtag  DW_TAG_structure_type
     9349                      .dwattr $C$DW$T$105, DW_AT_name("_SPI_Obj_")
     9350                      .dwattr $C$DW$T$105, DW_AT_byte_size(0x10)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  177
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  177
 
     9351              $C$DW$829       .dwtag  DW_TAG_member
     9352                      .dwattr $C$DW$829, DW_AT_type(*$C$DW$T$97)
@@ -10618,10 +10618,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9403                      .dwattr $C$DW$836, DW_AT_TI_symbol_name("_SPIRXBUF")
     9404                      .dwattr $C$DW$836, DW_AT_data_member_location[DW_OP_plus_uconst 0x7]
     9405                      .dwattr $C$DW$836, DW_AT_accessibility(DW_ACCESS_public)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  178
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  178
 
     9406              
     9407              $C$DW$837       .dwtag  DW_TAG_member
@@ -10678,10 +10678,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9458              $C$DW$T$206     .dwtag  DW_TAG_typedef
     9459                      .dwattr $C$DW$T$206, DW_AT_name("SPI_Obj")
     9460                      .dwattr $C$DW$T$206, DW_AT_type(*$C$DW$T$105)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  179
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  179
 
     9461                      .dwattr $C$DW$T$206, DW_AT_language(DW_LANG_C)
     9462              
@@ -10738,10 +10738,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9513                      .dwattr $C$DW$T$8, DW_AT_name("short")
     9514                      .dwattr $C$DW$T$8, DW_AT_byte_size(0x01)
     9515              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  180
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  180
 
     9516              $C$DW$T$9       .dwtag  DW_TAG_base_type
     9517                      .dwattr $C$DW$T$9, DW_AT_encoding(DW_ATE_unsigned)
@@ -10798,10 +10798,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9568              $C$DW$T$100     .dwtag  DW_TAG_array_type
     9569                      .dwattr $C$DW$T$100, DW_AT_type(*$C$DW$T$97)
     9570                      .dwattr $C$DW$T$100, DW_AT_language(DW_LANG_C)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  181
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  181
 
     9571                      .dwattr $C$DW$T$100, DW_AT_byte_size(0x04)
     9572              $C$DW$849       .dwtag  DW_TAG_subrange_type
@@ -10858,10 +10858,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9623              $C$DW$T$194     .dwtag  DW_TAG_typedef
     9624                      .dwattr $C$DW$T$194, DW_AT_name("size_t")
     9625                      .dwattr $C$DW$T$194, DW_AT_type(*$C$DW$T$13)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  182
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  182
 
     9626                      .dwattr $C$DW$T$194, DW_AT_language(DW_LANG_C)
     9627              
@@ -10918,10 +10918,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9678              ;* DWARF CIE ENTRIES                                           *
     9679              ;***************************************************************
     9680              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  183
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  183
 
     9681              $C$DW$CIE       .dwcie 26
     9682                      .dwcfi  cfa_register, 20
@@ -10978,10 +10978,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9733              $C$DW$865       .dwtag  DW_TAG_TI_assign_register
     9734                      .dwattr $C$DW$865, DW_AT_name("PC")
     9735                      .dwattr $C$DW$865, DW_AT_location[DW_OP_reg25]
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  184
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  184
 
     9736              
     9737              $C$DW$866       .dwtag  DW_TAG_TI_assign_register
@@ -11038,10 +11038,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9788              
     9789              $C$DW$879       .dwtag  DW_TAG_TI_assign_register
     9790                      .dwattr $C$DW$879, DW_AT_name("VOL")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  185
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  185
 
     9791                      .dwattr $C$DW$879, DW_AT_location[DW_OP_regx 0x4d]
     9792              
@@ -11098,10 +11098,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  
     9843                      .dwattr $C$DW$892, DW_AT_location[DW_OP_reg16]
     9844              
     9845              $C$DW$893       .dwtag  DW_TAG_TI_assign_register
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:02 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:45 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{4F517C70-6306-49DF-90C1-362470FF00DF} PAGE  186
+C:\Users\Zulolo\AppData\Local\Temp\{C9AD6BCC-5D2D-496E-AF0C-97DB5911D9EA} PAGE  186
 
     9846                      .dwattr $C$DW$893, DW_AT_name("XAR6")
     9847                      .dwattr $C$DW$893, DW_AT_location[DW_OP_reg17]

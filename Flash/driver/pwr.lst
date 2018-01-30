@@ -1,11 +1,11 @@
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    1
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    1
 
        1              ;***************************************************************
        2              ;* TMS320C2000 C/C++ Codegen                    PC v16.9.6.LTS *
-       3              ;* Date/Time created: Sun Jan 28 18:08:19 2018                 *
+       3              ;* Date/Time created: Tue Jan 30 22:36:04 2018                 *
        4              ;***************************************************************
        5                      .compiler_opts --abi=coffabi --float_support=softlib --hll_source=on --mem_model:code=flat --mem_mode
        6                      .asg    XAR2, FP
@@ -58,10 +58,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
       53              
       54              _PWR_setNumStandByClocks:
       55              ;* AR4   assigned to _pwrHandle
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    2
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    2
 
       56              $C$DW$4 .dwtag  DW_TAG_variable
       57                      .dwattr $C$DW$4, DW_AT_name("pwrHandle")
@@ -118,10 +118,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      105                      .dwattr $C$DW$7, DW_AT_name("PWR_setLowPowerMode")
      106                      .dwattr $C$DW$7, DW_AT_low_pc(_PWR_setLowPowerMode)
      107                      .dwattr $C$DW$7, DW_AT_high_pc(0x00)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    3
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    3
 
      108                      .dwattr $C$DW$7, DW_AT_TI_symbol_name("_PWR_setLowPowerMode")
      109                      .dwattr $C$DW$7, DW_AT_external
@@ -178,10 +178,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      160 00000014 FF10          ADD       ACC,#26265 << 0       ; [CPU_] |137| 
          00000015 6699 
      161 00000016 83A9          MOVL      XAR5,ACC              ; [CPU_] |137| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    4
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    4
 
      162                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/pwr/src/32b/f28x/f2802x/pwr.c",line 140
      163 00000017 A8A9          MOVL      ACC,XAR4              ; [CPU_] |140| 
@@ -238,10 +238,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      212                      .dwattr $C$DW$15, DW_AT_type(*$C$DW$T$33)
      213                      .dwattr $C$DW$15, DW_AT_location[DW_OP_reg0]
      214              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    5
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    5
 
      215              
      216              ;***************************************************************
@@ -298,10 +298,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      266                      .dwattr $C$DW$18, DW_AT_TI_begin_file("D:/ti/motorware/motorware_1_01_00_18/sw/drivers/pwr/src/32b/f2
      267                      .dwattr $C$DW$18, DW_AT_TI_begin_line(0x61)
      268                      .dwattr $C$DW$18, DW_AT_TI_begin_column(0x06)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    6
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    6
 
      269                      .dwattr $C$DW$18, DW_AT_TI_max_frame_size(-2)
      270                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/pwr/src/32b/f28x/f2802x/pwr.c",line 98,
@@ -358,10 +358,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      319 00000034               .sect   ".text"
      320                      .clink
      321                      .global _PWR_enableBrownOutReset
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    7
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    7
 
      322              
      323              $C$DW$22        .dwtag  DW_TAG_subprogram
@@ -418,10 +418,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      373                      .dwendentry
      374                      .dwendtag $C$DW$22
      375              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    8
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    8
 
      376 00000037               .sect   ".text"
      377                      .clink
@@ -478,10 +478,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      426 0000003f FF69          SPM       #0                    ; [CPU_] 
      427              $C$DW$29        .dwtag  DW_TAG_TI_branch
      428                      .dwattr $C$DW$29, DW_AT_low_pc(0x00)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE    9
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE    9
 
      429                      .dwattr $C$DW$29, DW_AT_TI_return
      430              
@@ -538,10 +538,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      481                      .dwcfi  save_reg_to_mem, 26, 0
      482                      .dwpsn  file "D:/ti/motorware/motorware_1_01_00_18/sw/drivers/pwr/src/32b/f28x/f2802x/pwr.c",line 63,
      483 00000041 1AC4          OR        *+XAR4[0],#0x0001     ; [CPU_] |63| 
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   10
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   10
 
          00000042 0001 
      484              $C$DW$33        .dwtag  DW_TAG_TI_branch
@@ -598,10 +598,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      535              $C$DW$39        .dwtag  DW_TAG_enumerator
      536                      .dwattr $C$DW$39, DW_AT_name("PWR_NumStandByClocks_3")
      537                      .dwattr $C$DW$39, DW_AT_const_value(0x04)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   11
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   11
 
      538              
      539              $C$DW$40        .dwtag  DW_TAG_enumerator
@@ -658,10 +658,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      590              
      591              $C$DW$53        .dwtag  DW_TAG_enumerator
      592                      .dwattr $C$DW$53, DW_AT_name("PWR_NumStandByClocks_17")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   12
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   12
 
      593                      .dwattr $C$DW$53, DW_AT_const_value(0x3c)
      594              
@@ -718,10 +718,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      645                      .dwattr $C$DW$66, DW_AT_const_value(0x70)
      646              
      647              $C$DW$67        .dwtag  DW_TAG_enumerator
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   13
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   13
 
      648                      .dwattr $C$DW$67, DW_AT_name("PWR_NumStandByClocks_31")
      649                      .dwattr $C$DW$67, DW_AT_const_value(0x74)
@@ -778,10 +778,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      700                      .dwattr $C$DW$80, DW_AT_name("PWR_NumStandByClocks_44")
      701                      .dwattr $C$DW$80, DW_AT_const_value(0xa8)
      702              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   14
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   14
 
      703              $C$DW$81        .dwtag  DW_TAG_enumerator
      704                      .dwattr $C$DW$81, DW_AT_name("PWR_NumStandByClocks_45")
@@ -838,10 +838,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      755              $C$DW$94        .dwtag  DW_TAG_enumerator
      756                      .dwattr $C$DW$94, DW_AT_name("PWR_NumStandByClocks_58")
      757                      .dwattr $C$DW$94, DW_AT_const_value(0xe0)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   15
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   15
 
      758              
      759              $C$DW$95        .dwtag  DW_TAG_enumerator
@@ -898,10 +898,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      810              
      811              $C$DW$104       .dwtag  DW_TAG_member
      812                      .dwattr $C$DW$104, DW_AT_type(*$C$DW$T$21)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   16
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   16
 
      813                      .dwattr $C$DW$104, DW_AT_name("rsvd_1")
      814                      .dwattr $C$DW$104, DW_AT_TI_symbol_name("_rsvd_1")
@@ -958,10 +958,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      865                      .dwattr $C$DW$T$6, DW_AT_encoding(DW_ATE_unsigned_char)
      866                      .dwattr $C$DW$T$6, DW_AT_name("unsigned char")
      867                      .dwattr $C$DW$T$6, DW_AT_byte_size(0x01)
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   17
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   17
 
      868              
      869              $C$DW$T$7       .dwtag  DW_TAG_base_type
@@ -1018,10 +1018,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      920              $C$DW$T$13      .dwtag  DW_TAG_base_type
      921                      .dwattr $C$DW$T$13, DW_AT_encoding(DW_ATE_unsigned)
      922                      .dwattr $C$DW$T$13, DW_AT_name("unsigned long")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   18
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   18
 
      923                      .dwattr $C$DW$T$13, DW_AT_byte_size(0x02)
      924              
@@ -1078,10 +1078,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
      975                      .dwcfi  same_value, 10
      976                      .dwcfi  same_value, 11
      977                      .dwendentry
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   19
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   19
 
      978              
      979              ;***************************************************************
@@ -1138,10 +1138,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
     1030              
     1031              $C$DW$122       .dwtag  DW_TAG_TI_assign_register
     1032                      .dwattr $C$DW$122, DW_AT_name("DP")
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   20
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   20
 
     1033                      .dwattr $C$DW$122, DW_AT_location[DW_OP_reg29]
     1034              
@@ -1198,10 +1198,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
     1085                      .dwattr $C$DW$135, DW_AT_location[DW_OP_reg5]
     1086              
     1087              $C$DW$136       .dwtag  DW_TAG_TI_assign_register
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   21
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   21
 
     1088                      .dwattr $C$DW$136, DW_AT_name("AR1")
     1089                      .dwattr $C$DW$136, DW_AT_location[DW_OP_reg6]
@@ -1258,10 +1258,10 @@ C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE  
     1140                      .dwattr $C$DW$149, DW_AT_name("XAR7")
     1141                      .dwattr $C$DW$149, DW_AT_location[DW_OP_reg19]
     1142              
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:08:19 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:36:04 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
-C:\Users\Zulolo\AppData\Local\Temp\{1AA42897-9D75-4B78-AA1A-8940A9BAE3A7} PAGE   22
+C:\Users\Zulolo\AppData\Local\Temp\{D3F8D639-27C7-444A-B206-4A4A2E944130} PAGE   22
 
     1143                      .dwendtag $C$DW$CU
     1144              

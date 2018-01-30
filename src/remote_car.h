@@ -59,6 +59,7 @@
 // platforms
 #include "sw/modules/ctrl/src/32b/ctrl.h"
 #include "hal.h"
+#include "i2c.h"
 #include "user.h"
 
 

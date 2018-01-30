@@ -1,4 +1,4 @@
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:07:51 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:34 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 D:/ti/motorware/motorware_1_01_00_18/sw/drivers/cpu/src/32b/f28x/f2802x/CodeStartBranch.asm PAGE    1
@@ -58,7 +58,7 @@ D:/ti/motorware/motorware_1_01_00_18/sw/drivers/cpu/src/32b/f28x/f2802x/CodeStar
       53              ;// PC, it is not the same as a full reset of the device. 
       54              ;// 
       55              ;// The compiler may warn that the entry point for the project is other then
-TMS320C2000 Assembler PC v16.9.6 Sun Jan 28 18:07:51 2018
+TMS320C2000 Assembler PC v16.9.6 Tue Jan 30 22:35:34 2018
 
 Tools Copyright (c) 1996-2017 Texas Instruments Incorporated
 D:/ti/motorware/motorware_1_01_00_18/sw/drivers/cpu/src/32b/f28x/f2802x/CodeStartBranch.asm PAGE    2
