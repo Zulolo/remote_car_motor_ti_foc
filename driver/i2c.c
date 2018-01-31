@@ -782,6 +782,19 @@ I2C_Status_e I2C_getStatus(I2C_Handle i2cHandle)
 //    }
 //}
 
+bool I2C_isRxFifoFull(I2C_Handle i2cHandle)
+{
+    //
+    // Check the arguments
+    //
+    //assert(I2C_isHandleValid(i2cHandle));
+
+    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+
+    return((i2c->I2CFFRX & I2C_I2CFFRX_RXFFINT_BIT) ? true : false);
+
+}
+
 ////***************************************************************************
 ////! Gets the current I2C Slave interrupt status.
 ////!
@@ -958,6 +971,25 @@ void I2C_setSlaveAddress(I2C_Handle i2cHandle, const uint16_t slaveAddress)
     // Set up the slave address
     //
     i2c->I2COAR = slaveAddress;
+}
+
+void I2C_setRxFifoLevel(I2C_Handle i2cHandle, const I2C_FifoLevel_e rxFifoLevel)
+{
+	uint16_t unI2CFFRX;
+    //
+    // Check the arguments
+    //
+    //assert(I2C_isHandleValid(i2cHandle));
+
+    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+
+    //
+    // Set up the rx fifo level
+    //
+    unI2CFFRX = i2c->I2CFFRX;
+    unI2CFFRX &= (~0x001F);
+    unI2CFFRX |= rxFifoLevel;
+    i2c->I2CFFRX = unI2CFFRX;
 }
 
 //*****************************************************************************
@@ -1200,6 +1232,23 @@ uint16_t I2C_getData(I2C_Handle i2cHandle)
     return (i2c->I2CDRR);
 }
 
+void I2C_getFifoData(I2C_Handle i2cHandle, uint16_t* pBuf, uint16_t unLen)
+{
+    //
+    // Check the arguments
+    //
+    //assert(I2C_isHandleValid(i2cHandle));
+
+    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+
+    //
+    // Read the bytes
+    //
+    while (unLen > 0){
+    	pBuf++ = i2c->I2CDRR;
+    	unLen--;
+    }
+}
 ////***************************************************************************
 ////! Transmits a byte from the I2C Slave.
 ////!

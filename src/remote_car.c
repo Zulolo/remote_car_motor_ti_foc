@@ -192,6 +192,15 @@ void main(void) {
 	// set the hardware abstraction layer parameters
 	HAL_setParams(halHandle, &gUserParams);
 
+	// prepare i2c
+	I2C_disable(i2cHandle);
+	I2C_setupClock(i2cHandle, 6, 50, 50);	//200K CLK is as master
+	I2C_setSlaveAddress(i2cHandle, 0x11);
+	I2C_enableFifo(i2cHandle);
+	I2C_resetRxFifo(i2cHandle);
+	I2C_setRxFifoLevel(i2cHandle, I2C_FifoLevel_4_Words);
+	I2C_enable(i2cHandle);
+
 	// initialize the controller
 #ifdef FAST_ROM_V1p6
 	ctrlHandle = CTRL_initCtrl(ctrlNumber, estNumber); //v1p6 format (06xF and 06xM devices)
@@ -273,7 +282,7 @@ void main(void) {
 	gMotorVars.Flag_enableOffsetcalc = false;
 
 	for (;;) {
-		if (I2C_Status_Rx_Full == I2C_getStatus(i2cHandle)){
+		if (true == I2C_isRxFifoFull(i2cHandle)){
 			// parse received I2C frame,
 			// it can be some configuration like set RPM or start spin
 			// it can be also read command to query current RPM, voltage or error
