@@ -76,46 +76,41 @@
 bool_t
 I2C_isHandleValid(I2C_Handle i2cHandle)
 {
-    return ((i2cHandle == (I2C_Handle) &I2caRegs));
+	return ((i2cHandle == (I2C_Handle) &I2caRegs));
 }
 #endif
 
 //
 // I2C_init -
 //
-I2C_Handle
-I2C_init(void *pMemory)
-{
-    //assert(pMemory == (void *)I2CA_BASE_ADDR);
+I2C_Handle I2C_init(void *pMemory) {
+	//assert(pMemory == (void *)I2CA_BASE_ADDR);
 
-    I2C_Handle i2cHandle;
+	I2C_Handle i2cHandle;
 
-    //
-    // assign the handle
-    //
-    i2cHandle = (I2C_Handle)pMemory;
+	//
+	// assign the handle
+	//
+	i2cHandle = (I2C_Handle) pMemory;
 
-    return (i2cHandle);
+	return (i2cHandle);
 }
 
 //
 // I2C_setupClock - Note final clock must be between 7 and 12MHz for propper
 // I2C operation
 //
-void
-I2C_setupClock(I2C_Handle i2cHandle, const uint16_t preScalar, 
-               const  uint16_t bitTimeLow, const uint16_t bitTimeHigh)
-{
-    //
-    // Check the arguments.
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
-    
-    i2c->I2CPSC = (preScalar - 1) & I2C_I2CPSC_IPSC_BITS;
-    i2c->I2CCLKL = bitTimeLow;
-    i2c->I2CCLKH = bitTimeHigh;
+void I2C_setupClock(I2C_Handle i2cHandle, const uint16_t preScalar, const uint16_t bitTimeLow, const uint16_t bitTimeHigh) {
+	//
+	// Check the arguments.
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
+
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	i2c->I2CPSC = (preScalar - 1) & I2C_I2CPSC_IPSC_BITS;
+	i2c->I2CCLKL = bitTimeLow;
+	i2c->I2CCLKH = bitTimeHigh;
 }
 
 ////**************************************************************************
@@ -197,20 +192,18 @@ I2C_setupClock(I2C_Handle i2cHandle, const uint16_t preScalar,
 //
 // I2C_disable -
 //
-void
-I2C_disable(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_disable(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Disable the I2C peripheral
-    //
-    i2c->I2CMDR &= ~I2C_I2CMDR_IRS_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Disable the I2C peripheral
+	//
+	i2c->I2CMDR &= ~I2C_I2CMDR_IRS_BIT;
 }
 
 //*****************************************************************************
@@ -222,20 +215,18 @@ I2C_disable(I2C_Handle i2cHandle)
 //!
 //! \return None.
 //*****************************************************************************
-void
-I2C_enable(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_enable(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Enable the I2C peripheral
-    //
-    i2c->I2CMDR |= I2C_I2CMDR_IRS_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Enable the I2C peripheral
+	//
+	i2c->I2CMDR |= I2C_I2CMDR_IRS_BIT;
 }
 
 //*****************************************************************************
@@ -247,20 +238,18 @@ I2C_enable(I2C_Handle i2cHandle)
 //!
 //! \return None.
 //*****************************************************************************
-void
-I2C_setMaster(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_setMaster(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Enable the master block
-    //
-    i2c->I2CMDR |= I2C_I2CMDR_MST_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Enable the master block
+	//
+	i2c->I2CMDR |= I2C_I2CMDR_MST_BIT;
 }
 
 //*****************************************************************************
@@ -272,19 +261,18 @@ I2C_setMaster(I2C_Handle i2cHandle)
 //!
 //! \return None.
 //*****************************************************************************
-void I2C_setSlave(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_setSlave(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Enable the slave
-    //
-    i2c->I2CMDR &= ~I2C_I2CMDR_MST_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Enable the slave
+	//
+	i2c->I2CMDR &= ~I2C_I2CMDR_MST_BIT;
 }
 
 ////***************************************************************************
@@ -427,134 +415,120 @@ void I2C_setSlave(I2C_Handle i2cHandle)
 //!
 //! \return None.
 //*****************************************************************************
-void
-I2C_enableInt(I2C_Handle i2cHandle, const I2C_IntEnable_e interrupts)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_enableInt(I2C_Handle i2cHandle, const I2C_IntEnable_e interrupts) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Enable interrupts
-    //
-    i2c->I2CIER |= interrupts;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Enable interrupts
+	//
+	i2c->I2CIER |= interrupts;
 }
 
 //
 // I2C_enableFifo - 
 //
-void
-I2C_enableFifo(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_enableFifo(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Enable the fifo
-    //
-    i2c->I2CFFTX |= I2C_I2CFFTX_FFEN_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Enable the fifo
+	//
+	i2c->I2CFFTX |= I2C_I2CFFTX_FFEN_BIT;
 }
 
 //
 // I2C_clearTxFifoInt - 
 //
-void
-I2C_clearTxFifoInt(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_clearTxFifoInt(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Clear the FIFO interrupt
-    //
-    i2c->I2CFFTX |= I2C_I2CFFTX_TXFFINTCLR_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Clear the FIFO interrupt
+	//
+	i2c->I2CFFTX |= I2C_I2CFFTX_TXFFINTCLR_BIT;
 }
 
 //
 // I2C_clearRxFifoInt -
 //
-void
-I2C_clearRxFifoInt(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_clearRxFifoInt(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Clear the FIFO interrupt
-    //
-    i2c->I2CFFRX |= I2C_I2CFFRX_RXFFINTCLR_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Clear the FIFO interrupt
+	//
+	i2c->I2CFFRX |= I2C_I2CFFRX_RXFFINTCLR_BIT;
 }
 
 //
 // I2C_disableFifo - 
 //
-void
-I2C_disableFifo(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_disableFifo(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Disable the fifo
-    //
-    i2c->I2CFFTX &= ~I2C_I2CFFTX_FFEN_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Disable the fifo
+	//
+	i2c->I2CFFTX &= ~I2C_I2CFFTX_FFEN_BIT;
 }
 
 //
 // I2C_resetTxFifo -
 //
-void
-I2C_resetTxFifo(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_resetTxFifo(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Reset the TX FIFO
-    //
-    i2c->I2CFFTX |= I2C_I2CFFTX_TXFFRST_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Reset the TX FIFO
+	//
+	i2c->I2CFFTX |= I2C_I2CFFTX_TXFFRST_BIT;
 }
 
 //
 // I2C_resetRxFifo -
 //
-void
-I2C_resetRxFifo(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_resetRxFifo(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Reset the RX FIFO
-    //
-    i2c->I2CFFRX |= I2C_I2CFFRX_RXFFRST_BIT;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Reset the RX FIFO
+	//
+	i2c->I2CFFRX |= I2C_I2CFFRX_RXFFRST_BIT;
 }
 
 ////***************************************************************************
@@ -621,19 +595,18 @@ I2C_resetRxFifo(I2C_Handle i2cHandle)
 //!
 //! \return None.
 //*****************************************************************************
-void I2C_disableInt(I2C_Handle i2cHandle, const I2C_IntEnable_e interrupts)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_disableInt(I2C_Handle i2cHandle, const I2C_IntEnable_e interrupts) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Disable interrupts
-    //
-    i2c->I2CIER &= ~interrupts;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Disable interrupts
+	//
+	i2c->I2CIER &= ~interrupts;
 }
 
 ////***************************************************************************
@@ -702,19 +675,18 @@ void I2C_disableInt(I2C_Handle i2cHandle, const I2C_IntEnable_e interrupts)
 //! \return The current interrupt status, returned as \b true if active
 //! or \b false if not active.
 //*****************************************************************************
-I2C_IntSource_e I2C_getIntSource(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+I2C_IntSource_e I2C_getIntSource(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Return the i2c status 
-    //
-    return (i2c->I2CISRC);
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Return the i2c status
+	//
+	return (i2c->I2CISRC);
 }
 
 //*****************************************************************************
@@ -731,19 +703,18 @@ I2C_IntSource_e I2C_getIntSource(I2C_Handle i2cHandle)
 //! \return The current interrupt status, returned as \b true if active
 //! or \b false if not active.
 //*****************************************************************************
-I2C_Status_e I2C_getStatus(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+I2C_Status_e I2C_getStatus(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Return the i2c status
-    //
-    return (i2c->I2CSTR);
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Return the i2c status
+	//
+	return (i2c->I2CSTR);
 }
 
 ////***************************************************************************
@@ -782,16 +753,15 @@ I2C_Status_e I2C_getStatus(I2C_Handle i2cHandle)
 //    }
 //}
 
-bool I2C_isRxFifoFull(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
+bool I2C_isRxFifoFull(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
 
-    return((i2c->I2CFFRX & I2C_I2CFFRX_RXFFINT_BIT) ? true : false);
+	return ((i2c->I2CFFRX & I2C_I2CFFRX_RXFFINT_BIT) ? true : false);
 
 }
 
@@ -953,43 +923,41 @@ bool I2C_isRxFifoFull(I2C_Handle i2cHandle)
 //!
 //! \return None.
 //*****************************************************************************
-void I2C_setSlaveAddress(I2C_Handle i2cHandle, const uint16_t slaveAddress)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
-    
-    //
-    // Must enable the device before doing anything else
-    //
+void I2C_setSlaveAddress(I2C_Handle i2cHandle, const uint16_t slaveAddress) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
+
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Must enable the device before doing anything else
+	//
 //    I2C_enableSlave(i2cHandle);
-    I2C_setSlave(i2cHandle);
-    //
-    // Set up the slave address
-    //
-    i2c->I2COAR = slaveAddress;
+	I2C_setSlave(i2cHandle);
+	//
+	// Set up the slave address
+	//
+	i2c->I2COAR = slaveAddress;
 }
 
-void I2C_setRxFifoLevel(I2C_Handle i2cHandle, const I2C_FifoLevel_e rxFifoLevel)
-{
+void I2C_setRxFifoLevel(I2C_Handle i2cHandle, const I2C_FifoLevel_e rxFifoLevel) {
 	uint16_t unI2CFFRX;
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
 
-    //
-    // Set up the rx fifo level
-    //
-    unI2CFFRX = i2c->I2CFFRX;
-    unI2CFFRX &= (~0x001F);
-    unI2CFFRX |= rxFifoLevel;
-    i2c->I2CFFRX = unI2CFFRX;
+	//
+	// Set up the rx fifo level
+	//
+	unI2CFFRX = i2c->I2CFFRX;
+	unI2CFFRX &= (~0x001F);
+	unI2CFFRX |= rxFifoLevel;
+	i2c->I2CFFRX = unI2CFFRX;
 }
 
 //*****************************************************************************
@@ -1007,19 +975,18 @@ void I2C_setRxFifoLevel(I2C_Handle i2cHandle, const I2C_FifoLevel_e rxFifoLevel)
 //!
 //! \return None.
 //*****************************************************************************
-void I2C_setMasterSlaveAddr(I2C_Handle i2cHandle, const uint16_t slaveAddress)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_setMasterSlaveAddr(I2C_Handle i2cHandle, const uint16_t slaveAddress) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Set the address of the slave with which the master will communicate
-    //
-    i2c->I2CSAR = slaveAddress;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Set the address of the slave with which the master will communicate
+	//
+	i2c->I2CSAR = slaveAddress;
 }
 
 //*****************************************************************************
@@ -1111,26 +1078,24 @@ void I2C_setMasterSlaveAddr(I2C_Handle i2cHandle, const uint16_t slaveAddress)
 //!
 //! \return None.
 //*****************************************************************************
-void I2C_MasterControl(I2C_Handle i2cHandle, I2C_Control_e action, 
-                       uint16_t bitCount, uint16_t bytes)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    //assert(bitCount <= 7);
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
-    
-    //
-    // Write the number of bytes to send or receive
-    //
-    i2c->I2CCNT = bytes;
+void I2C_MasterControl(I2C_Handle i2cHandle, I2C_Control_e action, uint16_t bitCount, uint16_t bytes) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
+	//assert(bitCount <= 7);
 
-    //
-    // Send the command
-    //
-    i2c->I2CMDR = action | bitCount;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Write the number of bytes to send or receive
+	//
+	i2c->I2CCNT = bytes;
+
+	//
+	// Send the command
+	//
+	i2c->I2CMDR = action | bitCount;
 }
 
 ////***************************************************************************
@@ -1192,19 +1157,18 @@ void I2C_MasterControl(I2C_Handle i2cHandle, I2C_Control_e action,
 //!
 //! \return None.
 //*****************************************************************************
-void I2C_putData(I2C_Handle i2cHandle, uint16_t data)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+void I2C_putData(I2C_Handle i2cHandle, uint16_t data) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Write the byte
-    //
-    i2c->I2CDXR = data;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Write the byte
+	//
+	i2c->I2CDXR = data;
 }
 
 //*****************************************************************************
@@ -1217,37 +1181,35 @@ void I2C_putData(I2C_Handle i2cHandle, uint16_t data)
 //! \return Returns the byte received from by the I2C Master, cast as an
 //! unsigned long.
 //*****************************************************************************
-uint16_t I2C_getData(I2C_Handle i2cHandle)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
-    
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+uint16_t I2C_getData(I2C_Handle i2cHandle) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    //
-    // Read the byte
-    //
-    return (i2c->I2CDRR);
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
+
+	//
+	// Read the byte
+	//
+	return (i2c->I2CDRR);
 }
 
-void I2C_getFifoData(I2C_Handle i2cHandle, uint16_t* pBuf, uint16_t unLen)
-{
-    //
-    // Check the arguments
-    //
-    //assert(I2C_isHandleValid(i2cHandle));
+void I2C_getFifoData(I2C_Handle i2cHandle, uint16_t* pBuf, uint16_t unLen) {
+	//
+	// Check the arguments
+	//
+	//assert(I2C_isHandleValid(i2cHandle));
 
-    I2C_Obj *i2c = (I2C_Obj *)i2cHandle;
+	I2C_Obj *i2c = (I2C_Obj *) i2cHandle;
 
-    //
-    // Read the bytes
-    //
-    while (unLen > 0){
-    	pBuf++ = i2c->I2CDRR;
-    	unLen--;
-    }
+	//
+	// Read the bytes
+	//
+	while (unLen > 0) {
+		*pBuf++ = i2c->I2CDRR;
+		unLen--;
+	}
 }
 ////***************************************************************************
 ////! Transmits a byte from the I2C Slave.

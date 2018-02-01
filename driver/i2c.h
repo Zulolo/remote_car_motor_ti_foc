@@ -506,7 +506,17 @@ void I2C_setupClock(I2C_Handle i2cHandle, const uint16_t preScalar,
 //                                         tBoolean      bMasked);
 //extern unsigned long I2CSlaveStatus(unsigned long ulBase);
 I2C_Handle I2C_init(void *pMemory);
+void I2C_enable(I2C_Handle i2cHandle);
+void I2C_disable(I2C_Handle i2cHandle);
+void I2C_setupClock(I2C_Handle i2cHandle, const uint16_t preScalar, const  uint16_t bitTimeLow, const uint16_t bitTimeHigh);
 I2C_Status_e I2C_getStatus(I2C_Handle i2cHandle);
+void I2C_resetRxFifo(I2C_Handle i2cHandle);
+void I2C_setSlaveAddress(I2C_Handle i2cHandle, const uint16_t slaveAddress);
+bool I2C_isRxFifoFull(I2C_Handle i2cHandle);
+void I2C_getFifoData(I2C_Handle i2cHandle, uint16_t* pBuf, uint16_t unLen);
+void I2C_enableFifo(I2C_Handle i2cHandle);
+void I2C_setRxFifoLevel(I2C_Handle i2cHandle, const I2C_FifoLevel_e rxFifoLevel);
+void I2C_clearRxFifoInt(I2C_Handle i2cHandle);
 //*****************************************************************************
 // Mark the end of the C bindings section for C++ compilers.
 //*****************************************************************************

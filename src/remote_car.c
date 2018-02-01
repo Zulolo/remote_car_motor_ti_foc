@@ -57,6 +57,7 @@
 
 #define LED_BLINK_FREQ_Hz   5
 
+#define GET_ARRAY_LEN(arrayName)		(sizeof(arrayName)/sizeof(arrayName[0]))
 // **************************************************************************
 // the globals
 
@@ -141,6 +142,7 @@ _iq gTorque_Flux_Iq_pu_to_Nm_sf;
 void main(void) {
 	uint_least8_t estNumber = 0;
 	I2C_Handle i2cHandle;
+	uint16_t unI2cReadData[4];
 
 #ifdef FAST_ROM_V1p6
 	uint_least8_t ctrlNumber = 0;
@@ -200,6 +202,7 @@ void main(void) {
 	I2C_resetRxFifo(i2cHandle);
 	I2C_setRxFifoLevel(i2cHandle, I2C_FifoLevel_4_Words);
 	I2C_enable(i2cHandle);
+	I2C_clearRxFifoInt(i2cHandle);
 
 	// initialize the controller
 #ifdef FAST_ROM_V1p6
@@ -283,9 +286,12 @@ void main(void) {
 
 	for (;;) {
 		if (true == I2C_isRxFifoFull(i2cHandle)){
+			I2C_clearRxFifoInt(i2cHandle);
 			// parse received I2C frame,
 			// it can be some configuration like set RPM or start spin
 			// it can be also read command to query current RPM, voltage or error
+			I2C_getFifoData(i2cHandle, unI2cReadData, GET_ARRAY_LEN(unI2cReadData));
+			// TODO: Last byte shall be CRC, check integrity
 		}
 
 		// loop while the enable system flag is true
