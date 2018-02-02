@@ -138,10 +138,11 @@ _iq gTorque_Flux_Iq_pu_to_Nm_sf;
 
 // **************************************************************************
 // the functions
+I2C_Handle i2cHandle;
 
 void main(void) {
 	uint_least8_t estNumber = 0;
-	I2C_Handle i2cHandle;
+
 	uint16_t unI2cReadData[4];
 
 #ifdef FAST_ROM_V1p6
