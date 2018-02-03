@@ -75,6 +75,10 @@
 //!
 #define MAX_ACCEL_KRPMPS_SF  _IQ(USER_MOTOR_NUM_POLE_PAIRS*1000.0/USER_TRAJ_FREQ_Hz/USER_IQ_FULL_SCALE_FREQ_Hz/60.0)
 
+#define MAX_MOTOR_KRPM		(6.0)
+#define MIN_MOTOR_KRPM		(0.2)
+#define MAX_MOTOR_ACCEL		(2.0)
+#define MIN_MOTOR_ACCEL		(0.1)
 //! \brief Initialization values of global variables
 //!
 #define MOTOR_Vars_INIT {false, \

@@ -528,6 +528,7 @@ void I2C_resetRxFifo(I2C_Handle i2cHandle) {
 	//
 	// Reset the RX FIFO
 	//
+	i2c->I2CFFRX &= (~I2C_I2CFFRX_RXFFRST_BIT);
 	i2c->I2CFFRX |= I2C_I2CFFRX_RXFFRST_BIT;
 }
 
@@ -1195,7 +1196,7 @@ uint16_t I2C_getData(I2C_Handle i2cHandle) {
 	return (i2c->I2CDRR);
 }
 
-void I2C_getFifoData(I2C_Handle i2cHandle, uint16_t* pBuf, uint16_t unLen) {
+void I2C_getFifoData(I2C_Handle i2cHandle, uint8_t* pBuf, uint8_t unLen) {
 	//
 	// Check the arguments
 	//
@@ -1207,7 +1208,7 @@ void I2C_getFifoData(I2C_Handle i2cHandle, uint16_t* pBuf, uint16_t unLen) {
 	// Read the bytes
 	//
 	while (unLen > 0) {
-		*pBuf++ = i2c->I2CDRR;
+		*pBuf++ = (uint8_t)(i2c->I2CDRR);
 		unLen--;
 	}
 }
