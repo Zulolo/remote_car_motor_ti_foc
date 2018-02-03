@@ -266,7 +266,7 @@ extern "C" {
 //! \brief Enumeration to define the I2C command in received data
 //!
 typedef enum {
-	I2C_CMD_ENABLE_SYS = 0, I2C_CMD_ENABLE_RUN, I2C_CMD_SET_KRPM, I2C_CMD_SET_TORQUE, I2C_CMD_SET_ACCEL_K
+	I2C_CMD_ENABLE_SYS = 0, I2C_CMD_ENABLE_RUN, I2C_CMD_RUN_ID, I2C_CMD_SET_KRPM, I2C_CMD_SET_ACCEL_K, I2C_CMD_SET_TORQUE
 } I2C_Cmd_e;
 
 //! \brief Enumeration to define the I2C bit counts

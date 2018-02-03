@@ -139,7 +139,7 @@ _iq gTorque_Flux_Iq_pu_to_Nm_sf;
 // the functions
 I2C_Handle i2cHandle;
 
-unsigned char getCrc8(uint8_t* pData, uint8_t unDataLength) {
+uint8_t getCrc8(uint8_t* pData, uint8_t unDataLength) {
 	const uint8_t CRC7_POLY = 0x91;
 	uint8_t i, j, crc = 0;
 
@@ -171,6 +171,9 @@ void parseI2cCmd(volatile MOTOR_Vars_t* pMotorVars, uint8_t* pI2cReadData) {
 	case I2C_CMD_ENABLE_RUN:
 		pMotorVars->Flag_enableRun = ((0 == pI2cReadData[1]) ? (false) : (true));
 		break;
+	case I2C_CMD_RUN_ID:
+		pMotorVars->Flag_Run_Identify = ((0 == pI2cReadData[1]) ? (false) : (true));
+		break;
 	case I2C_CMD_SET_KRPM:
 		temp = _IQ(((float)((((uint16_t )(pI2cReadData[2])) << 8) | pI2cReadData[1]) / 1000));
 		if ((temp <= _IQ(MAX_MOTOR_KRPM)) && (temp >= _IQ(MIN_MOTOR_KRPM))) {
@@ -178,6 +181,7 @@ void parseI2cCmd(volatile MOTOR_Vars_t* pMotorVars, uint8_t* pI2cReadData) {
 		}
 		break;
 	case I2C_CMD_SET_ACCEL_K:
+		temp = _IQ(((float)((((uint16_t )(pI2cReadData[2])) << 8) | pI2cReadData[1]) / 1000));
 		if ((temp <= _IQ(MAX_MOTOR_ACCEL)) && (temp >= _IQ(MIN_MOTOR_ACCEL))) {
 			pMotorVars->MaxAccel_krpmps = _IQ(((float)((((uint16_t )(pI2cReadData[2])) << 8) | pI2cReadData[1]) / 1000));
 		}
@@ -191,10 +195,25 @@ void parseI2cCmd(volatile MOTOR_Vars_t* pMotorVars, uint8_t* pI2cReadData) {
 	}
 }
 
+void implementI2cCmd(volatile MOTOR_Vars_t* pMotorVars, I2C_Handle i2cHandle) {
+	uint8_t unI2cReadData[4];
+	if (true == I2C_isRxFifoFull(i2cHandle)) {
+		// parse received I2C frame,
+		// it can be some configuration like set RPM or start spin
+		// it can be also read command to query current RPM, voltage or error
+		I2C_getFifoData(i2cHandle, unI2cReadData, GET_ARRAY_LEN(unI2cReadData));
+		I2C_clearRxFifoInt(i2cHandle);
+		// TODO: Last byte shall be CRC, check integrity
+		if (true == checkI2cIntegrity(unI2cReadData, GET_ARRAY_LEN(unI2cReadData))) {
+			parseI2cCmd(pMotorVars, unI2cReadData);
+		} else {
+			I2C_resetRxFifo(i2cHandle);
+		}
+	}
+}
+
 void main(void) {
 uint_least8_t estNumber = 0;
-
-uint8_t unI2cReadData[4];
 
 #ifdef FAST_ROM_V1p6
 uint_least8_t ctrlNumber = 0;
@@ -337,24 +356,11 @@ gTorque_Flux_Iq_pu_to_Nm_sf = USER_computeTorque_Flux_Iq_pu_to_Nm_sf();
 gMotorVars.Flag_enableOffsetcalc = false;
 
 for (;;) {
-	if (true == I2C_isRxFifoFull(i2cHandle)) {
-		I2C_clearRxFifoInt(i2cHandle);
-		// parse received I2C frame,
-		// it can be some configuration like set RPM or start spin
-		// it can be also read command to query current RPM, voltage or error
-		I2C_getFifoData(i2cHandle, unI2cReadData, GET_ARRAY_LEN(unI2cReadData));
-		// TODO: Last byte shall be CRC, check integrity
-		if (true == checkI2cIntegrity(unI2cReadData, GET_ARRAY_LEN(unI2cReadData))) {
-			parseI2cCmd(&gMotorVars, unI2cReadData);
-		} else {
-			I2C_resetRxFifo(i2cHandle);
-		}
-	}
-
+	implementI2cCmd(&gMotorVars, i2cHandle);
 	// loop while the enable system flag is true
 	while (gMotorVars.Flag_enableSys) {
 		CTRL_Obj *obj = (CTRL_Obj *) ctrlHandle;
-
+		implementI2cCmd(&gMotorVars, i2cHandle);
 		// increment counters
 		gCounter_updateGlobals++;
 
